@@ -1,5 +1,0 @@
-require 'samwise/version'
-require 'samwise/error'
-require 'samwise/util'
-require 'samwise/protocol'
-require 'samwise/client'

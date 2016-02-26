@@ -1,160 +1,140 @@
-# samwise
-
-* [Homepage](https://rubygems.org/gems/samwise)
-* [Documentation](http://rubydoc.info/gems/samwise/frames)
-
-[![Build Status](https://travis-ci.org/18F/samwise.svg)](https://travis-ci.org/18F/samwise)
-[![Code Climate](https://codeclimate.com/github/18F/samwise/badges/gpa.svg)](https://codeclimate.com/github/18F/samwise)
-[![Test Coverage](https://codeclimate.com/github/18F/samwise/badges/coverage.svg)](https://codeclimate.com/github/18F/samwise/coverage)
-[![Issue Count](https://codeclimate.com/github/18F/samwise/badges/issue_count.svg)](https://codeclimate.com/github/18F/samwise)
+# onena
 
 ## Description
 
-Ruby access to the SAM.gov API.
+Ruby cli tool to reconcile [Tock](https://github.com/18F/tock) and [Float](https://www.float.com/) data.
+
+Onena will return possible matches between Tock and Float users, clients,
+projects, and project/client combinations.  Exact matches are excluded.
+
+Possible matches are returned with [Levenshtein
+distance](https://en.wikipedia.org/wiki/Levenshtein_distance) and [White
+similarity](http://www.catalysoft.com/articles/StrikeAMatch.html).
 
 ## Usage
 
-To get started, you'll need an API key from https://api.data.gov.
+To get started, you'll need Tock and [Float API](https://github.com/floatschedule/api) keys.
+
+For flexibility, all possible matches are returned as JSON, and filtering is done by a
+separate tool.  The examples below using [jq](https://stedolan.github.io/jq/)
+to filter the results.
 
 ### Configuration
 
-Set the api.data.gov API key as the environment variable `'DATA_DOT_GOV_API_KEY'` or pass the key as an argument:
+Set the Tock API key as the environment variable `TOCK_API_KEY` and the Float
+API Key as `FLOAT_API_KEY`, or pass the keys as arguments.  You may also set
+`TOCK_API_ENDPOINT` to override the default endpoint,
+`https://tock.18f.gov/api/`.
 
-```ruby
-require 'samwise'
-
-client = Samwise::Client.new(api_key: 'my key ...')
-
-# if you set the 'DATA_DOT_GOV_API_KEY' env var, just use:
-client = Samwise::Client.new
+```shell
+$ export TOCK_API_ENDPOINT=http://192.168.33.10/api
+$ export TOCK_API_KEY=...
+$ export FLOAT_API_KEY=...
 ```
 
-### Verify DUNS number is in SAM.gov
+### Get possible project matches with a Levenshtein distance of 4 or less
 
-```ruby
-client.duns_is_in_sam?(duns: '080037478')
-#=> true
-```
-
-### Verify Vendor is not on the excluded parties list
-
-```ruby
-client.is_excluded?(duns: '080037478')
-#=> false
-```
-
-### Get DUNS info
-
-```ruby
-client.get_duns_info(duns: '080037478')
-#=>
+```shell
+$ onena | jq 'select(.type == "project" and .distance <= 4)'
 {
-    "sam_data" => {
-        "registration" => {
-            "govtBusinessPoc" => {
-                "lastName" => "SUDOL", "address" => {
-                    "Line1" => "4301 N HENDERSON RD APT 408", "Zip" => "22203", "Country" => "USA", "City" => "Arlington", "stateorProvince" => "VA"
-                }, "email" => "BRENDANSUDOL@GMAIL.COM", "usPhone" => "5404218332", "firstName" => "BRENDAN"
-            }, "dunsPlus4" => "0000", "activationDate" => "2015-10-30 11:42:30.0", "fiscalYearEndCloseDate" => "12/31", "businessTypes" => ["VW", "2X", "27"], "registrationDate" => "2015-10-28 00:00:00.0", "certificationsURL" => {
-                "pdfUrl" => "https://www.sam.gov/SAMPortal/filedownload?reportType=1&orgId=%2BFCe4Gq91w3LPzmIapO9KekwldCbu7D2ee%2FlxnUkqFvrQwe3OD%2FJSpI%2FuXW0rrpz&pitId=clfEJcL40D6baXhmKE8hVFZPHUDQegjQvNgn4YGfaL%2Fzh6O%2B%2FUJYaSJJ0dKFPFhm&requestId=Xzq5jdsGDkiXPF4"
-            }, "hasDelinquentFederalDebt" => false, "duns" => "080037478", "cage" => "7H1Y7", "hasKnownExclusion" => false, "publicDisplay" => true, "expirationDate" => "2016-10-27 10:53:02.0", "status" => "ACTIVE", "corporateStructureCode" => "2J", "stateOfIncorporation" => "VA", "corporateStructureName" => "Sole Proprietorship", "legalBusinessName" => "Sudol, Brendan", "congressionalDistrict" => "VA 08", "businessStartDate" => "2015-10-28", "statusMessage" => "Active", "lastUpdateDate" => "2015-11-02 17:36:23.0", "submissionDate" => "2015-10-28 10:53:02.0", "samAddress" => {
-                "Zip4" => "2511", "Line1" => "4301 N Henderson Rd Apt 408", "Zip" => "22203", "Country" => "USA", "City" => "Arlington", "stateorProvince" => "VA"
-            }, "naics" => [{
-                "isPrimary" => false, "naicsCode" => "518210", "naicsName" => "DATA PROCESSING, HOSTING, AND RELATED SERVICES"
-            }, {
-                "isPrimary" => true, "naicsCode" => "541511", "naicsName" => "CUSTOM COMPUTER PROGRAMMING SERVICES"
-            }], "creditCardUsage" => true, "countryOfIncorporation" => "USA", "electronicBusinessPoc" => {
-                "lastName" => "SUDOL", "address" => {
-                    "Line1" => "4301 N HENDERSON RD APT 408", "Zip" => "22203", "Country" => "USA", "City" => "Arlington", "stateorProvince" => "VA"
-                }, "email" => "BRENDANSUDOL@GMAIL.COM", "usPhone" => "5404218332", "firstName" => "BRENDAN"
-            }, "mailingAddress" => {
-                "Zip4" => "2511", "Line1" => "4301 N Henderson Rd Apt 408", "Zip" => "22203", "Country" => "USA", "City" => "Arlington", "stateorProvince" => "VA"
-            }, "purposeOfRegistration" => "ALL_AWARDS"
-        }
-    }
+  "float": "First Proj",
+  "tock": "First Project",
+  "distance": 3,
+  "similarity": 0.8235294117647058,
+  "type": "project"
 }
 ```
 
-### Validate the format of a DUNS number
+### Get possible user matches with a White similarity of 0.8 or greater
 
-This does not need an API key and makes no network calls.
-
-```ruby
-Samwise::Util.duns_is_properly_formatted?(duns: '88371771')
-#=> true
-
-Samwise::Util.duns_is_properly_formatted?(duns: '883717717')
-#=> true
-
-Samwise::Util.duns_is_properly_formatted?(duns: '0223841150000')
-#=> true
-
-Samwise::Util.duns_is_properly_formatted?(duns: '08-011-5718')
-#=> true
-
-Samwise::Util.duns_is_properly_formatted?(duns: 'abc1234567')
-#=> false
-
-Samwise::Util.duns_is_properly_formatted?(duns: '1234567891234567890')
-#=> false
-```
-
-### Format a DUNS number
-
-This removes any hyphens and appends `0`s where appropriate (does not need an API key and makes no network calls):
-
-```ruby
-Samwise::Util.format_duns(duns: '08-011-5718')
-#=> "0801157180000"
-```
-
-`duns` can be an 8, 9, or 13 digit number (hyphens are removed):
-
-- If it is 8 digits, `0` is prepended, and `0000` is added to the end.
-- If it is 9 digits, `0000` is added to the end.
-- If it is 13 digits, the number is unchanged.
-
-### Check status in SAM.gov
-
-There is a web form where anyone can enter a DUNS number to get its status within SAM.gov: https://www.sam.gov/sam/helpPage/SAM_Reg_Status_Help_Page.html.
-
-This form uses an undocumented/unpublished JSON endpoint. This gem provides Ruby access to that endpoint.
-
-This does not require an api.data.gov API key, but it will make a network call to the above URL.
-
-The SAM.gov status web form hard codes what appears to be an API key. That key is used by default in this gem. However, you may supply your own (also tell us where you got it!).
-
-```ruby
-client = Samwise::Client.new(sam_status_key:  'optional')
-client.get_sam_status(duns: '08-011-5718')
-
-#=> {
-  "Message" => "Request for registration information forbidden",
-  "Code" => 403,
-  "Error" => ""
+```shell
+$ onena | jq 'select(.type == "user" and .similarity >= 0.8)'
+{
+  "float": "Christian Warden",
+  "tock": "Christian G. Warden",
+  "distance": 3,
+  "similarity": 0.9629629629629629,
+  "type": "user"
 }
+```
 
-client.get_sam_status(duns: )
+### Get possible client matches with a Levenshtein distance of 3 or less
+```shell
+$ onena | jq 'select(.type == "client" and .distance <= 3)'
+{
+  "float": "Acme!",
+  "tock": "Acme",
+  "distance": 1,
+  "similarity": 0.8571428571428571,
+  "type": "client"
+}
+```
+
+### Get possible project->client matches with a Levenshtein distance of 8 or less
+
+```shell
+$ onena | jq 'select(.type == "project-client" and .distance <= 8)'
+{
+  "float": "First Proj -> Acme!",
+  "tock": "First Project -> Acme",
+  "distance": 4,
+  "similarity": 0.8461538461538461,
+  "type": "project-client"
+}
+```
+
+### Library Usage
+
+Onena can also be used a ruby library.
+
+```ruby
+require 'onena'
+
+client = Onena::Client.new(tock_api_key: 'tock key ...', float_api_key: 'float key ...', tock_api_endpoint: 'http://192.168.33.10/api')
+
+# if you set the 'TOCK_API_KEY' and 'FLOAT_API_KEY' env vars, just use:
+client = Onena::Client.new
+
+client.possible_client_matches.select { |match| match[:distance] <= 4 }
+ => [{:float=>"Acme!", :tock=>"Acme", :distance=>1, :similarity=>0.8571428571428571}]
+client.possible_project_matches.select { |match| match[:distance] <= 4 }
+ => [{:float=>"First Proj", :tock=>"First Project", :distance=>3, :similarity=>0.8235294117647058}]
+client.possible_project_client_matches.select { |match| match[:distance] <= 4 }
+ => [{:float=>"First Proj -> Acme!", :tock=>"First Project -> Acme", :distance=>4, :similarity=>0.8461538461538461}]
+client.possible_user_matches.select { |match| match[:distance] <= 4 }
+ => [{:float=>"Christian Warden", :tock=>"Christian G. Warden", :distance=>3, :similarity=>0.9629629629629629}]
 ```
 
 ## Install
 
-In your Gemfile:
+From the command-line:
+
+```shell
+$ gem install onena
+```
+
+or in your Gemfile:
 
 ```ruby
-gem 'samwise', github: '18f/samwise'
+gem 'onena', github: 'cwarden/onena'
 ```
 
-### Coming Soon
+## History
 
-```
-$ gem install samwise
-```
+This tool was developed by [Christian G. Warden](https://github.com/cwarden) as
+a [micro-purchase by 18F](https://micropurchase.18f.gov/auctions/11).  For
+consistency with other 18F projects (and because the author has almost nil
+experience with Ruby) the [samwise](https://github.com/18F/samwise) project by
+[Alan deLevie](https://github.com/adelevie) was used as a template for the
+application structure.
 
 ## Public Domain
 
-This project is in the worldwide [public domain](LICENSE.md). As stated in [CONTRIBUTING](CONTRIBUTING.md):
+This project is in the worldwide [public domain](LICENSE.md).
 
-> This project is in the public domain within the United States, and copyright and related rights in the work worldwide are waived through the [CC0 1.0 Universal public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+> This project is in the public domain within the United States, and copyright
+> and related rights in the work worldwide are waived through the [CC0 1.0 > Universal public domain > dedication](https://creativecommons.org/publicdomain/zero/1.0/).
 >
-> All contributions to this project will be released under the CC0 dedication. By submitting a pull request, you are agreeing to comply with this waiver of copyright interest.
+> All contributions to this project will be released under the CC0 dedication.
+> By submitting a pull request, you are agreeing to comply with this waiver of
+> copyright interest.

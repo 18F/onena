@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'onena'
+
+client = Onena::Client.new
+client.print_possible_matches

@@ -1,0 +1,847 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://192.168.33.10/api/users.json?page_size=100000
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.1
+      Date:
+      - Sun, 28 Feb 2016 20:54:52 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept, Cookie
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Frame-Options:
+      - SAMEORIGIN
+      Set-Cookie:
+      - csrftoken=K2jsQRvJCrd5ONmVqpZLWHL2sg8AUfYF; expires=Sun, 26-Feb-2017 20:54:52
+        GMT; Max-Age=31449600; Path=/
+      - sessionid=au8j73xdw80enhd8po1qlkym0raniu0h; expires=Sun, 13-Mar-2016 20:54:52
+        GMT; httponly; Max-Age=1209600; Path=/
+      Content-Length:
+      - '16891'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":150,"next":null,"previous":null,"results":[{"id":2,"username":"EfLUYI.OkWGQw","first_name":"EfLUYI","last_name":"OkWGQw","email":"EfLUYI.OkWGQw@gsa.gov"},{"id":4,"username":"Qy4EoE.l57B0p","first_name":"Qy4EoE","last_name":"l57B0p","email":"Qy4EoE.l57B0p@gsa.gov"},{"id":6,"username":"bQLAW1.0HRS69","first_name":"bQLAW1","last_name":"0HRS69","email":"bQLAW1.0HRS69@gsa.gov"},{"id":7,"username":"a7sc2O.03XhTl","first_name":"a7sc2O","last_name":"03XhTl","email":"a7sc2O.03XhTl@gsa.gov"},{"id":8,"username":"huNTHU.CsU6M4","first_name":"huNTHU","last_name":"CsU6M4","email":"huNTHU.CsU6M4@gsa.gov"},{"id":9,"username":"R1KnF5.yH5a8y","first_name":"R1KnF5","last_name":"yH5a8y","email":"R1KnF5.yH5a8y@gsa.gov"},{"id":10,"username":"WqZdIf.wRAymJ","first_name":"WqZdIf","last_name":"wRAymJ","email":"WqZdIf.wRAymJ@gsa.gov"},{"id":11,"username":"5nRgOk.9lU2yA","first_name":"5nRgOk","last_name":"9lU2yA","email":"5nRgOk.9lU2yA@gsa.gov"},{"id":12,"username":"19gRZY.aE2osh","first_name":"19gRZY","last_name":"aE2osh","email":"19gRZY.aE2osh@gsa.gov"},{"id":13,"username":"ssVqPW.OCApFO","first_name":"ssVqPW","last_name":"OCApFO","email":"ssVqPW.OCApFO@gsa.gov"},{"id":14,"username":"5euNAU.WL3Snb","first_name":"5euNAU","last_name":"WL3Snb","email":"5euNAU.WL3Snb@gsa.gov"},{"id":15,"username":"PlGDeb.jgkoOW","first_name":"PlGDeb","last_name":"jgkoOW","email":"PlGDeb.jgkoOW@gsa.gov"},{"id":16,"username":"RwkEZw.2WD51E","first_name":"RwkEZw","last_name":"2WD51E","email":"RwkEZw.2WD51E@gsa.gov"},{"id":17,"username":"y7gdAX.Flkw3E","first_name":"y7gdAX","last_name":"Flkw3E","email":"y7gdAX.Flkw3E@gsa.gov"},{"id":18,"username":"J5jdu1.302QsD","first_name":"J5jdu1","last_name":"302QsD","email":"J5jdu1.302QsD@gsa.gov"},{"id":19,"username":"uZPt2n.SJu15s","first_name":"uZPt2n","last_name":"SJu15s","email":"uZPt2n.SJu15s@gsa.gov"},{"id":20,"username":"o4cDh4.L28KSO","first_name":"o4cDh4","last_name":"L28KSO","email":"o4cDh4.L28KSO@gsa.gov"},{"id":21,"username":"hBdbPM.Q9MVfM","first_name":"hBdbPM","last_name":"Q9MVfM","email":"hBdbPM.Q9MVfM@gsa.gov"},{"id":22,"username":"zVJmd3.BbPaae","first_name":"zVJmd3","last_name":"BbPaae","email":"zVJmd3.BbPaae@gsa.gov"},{"id":23,"username":"z9Ozlg.Pvl7pC","first_name":"z9Ozlg","last_name":"Pvl7pC","email":"z9Ozlg.Pvl7pC@gsa.gov"},{"id":24,"username":"A90RKx.08lH2M","first_name":"A90RKx","last_name":"08lH2M","email":"A90RKx.08lH2M@gsa.gov"},{"id":25,"username":"wpI24j.SrODOu","first_name":"wpI24j","last_name":"SrODOu","email":"wpI24j.SrODOu@gsa.gov"},{"id":26,"username":"5jVO3i.jENzW2","first_name":"5jVO3i","last_name":"jENzW2","email":"5jVO3i.jENzW2@gsa.gov"},{"id":27,"username":"FVMO9L.XPWiPv","first_name":"FVMO9L","last_name":"XPWiPv","email":"FVMO9L.XPWiPv@gsa.gov"},{"id":28,"username":"zOiRwO.LEs2WF","first_name":"zOiRwO","last_name":"LEs2WF","email":"zOiRwO.LEs2WF@gsa.gov"},{"id":29,"username":"Hh3mI0.3rdQjZ","first_name":"Hh3mI0","last_name":"3rdQjZ","email":"Hh3mI0.3rdQjZ@gsa.gov"},{"id":30,"username":"V9tUY8.lltsb4","first_name":"V9tUY8","last_name":"lltsb4","email":"V9tUY8.lltsb4@gsa.gov"},{"id":31,"username":"iLyCXl.8xnRnH","first_name":"iLyCXl","last_name":"8xnRnH","email":"iLyCXl.8xnRnH@gsa.gov"},{"id":32,"username":"ffNNjo.4lle4J","first_name":"ffNNjo","last_name":"4lle4J","email":"ffNNjo.4lle4J@gsa.gov"},{"id":33,"username":"rXEuID.JxABG9","first_name":"rXEuID","last_name":"JxABG9","email":"rXEuID.JxABG9@gsa.gov"},{"id":34,"username":"Nujv0X.9ITqkO","first_name":"Nujv0X","last_name":"9ITqkO","email":"Nujv0X.9ITqkO@gsa.gov"},{"id":35,"username":"wOut40.kMV1mk","first_name":"wOut40","last_name":"kMV1mk","email":"wOut40.kMV1mk@gsa.gov"},{"id":36,"username":"rZRt8P.Mf8it8","first_name":"rZRt8P","last_name":"Mf8it8","email":"rZRt8P.Mf8it8@gsa.gov"},{"id":37,"username":"OOV6Kk.B67zyG","first_name":"OOV6Kk","last_name":"B67zyG","email":"OOV6Kk.B67zyG@gsa.gov"},{"id":38,"username":"z8RMiT.0unZTL","first_name":"z8RMiT","last_name":"0unZTL","email":"z8RMiT.0unZTL@gsa.gov"},{"id":39,"username":"dUigqR.lDDamw","first_name":"dUigqR","last_name":"lDDamw","email":"dUigqR.lDDamw@gsa.gov"},{"id":40,"username":"dOIH2N.n9R5Ub","first_name":"dOIH2N","last_name":"n9R5Ub","email":"dOIH2N.n9R5Ub@gsa.gov"},{"id":41,"username":"z1Fjuz.1bGxT9","first_name":"z1Fjuz","last_name":"1bGxT9","email":"z1Fjuz.1bGxT9@gsa.gov"},{"id":42,"username":"2NgayK.SMLpwE","first_name":"2NgayK","last_name":"SMLpwE","email":"2NgayK.SMLpwE@gsa.gov"},{"id":43,"username":"Ku1HBj.dLyJu9","first_name":"Ku1HBj","last_name":"dLyJu9","email":"Ku1HBj.dLyJu9@gsa.gov"},{"id":45,"username":"BO0d23.qcXPcG","first_name":"BO0d23","last_name":"qcXPcG","email":"BO0d23.qcXPcG@gsa.gov"},{"id":46,"username":"TWMxQc.NDr2qz","first_name":"TWMxQc","last_name":"NDr2qz","email":"TWMxQc.NDr2qz@gsa.gov"},{"id":47,"username":"8nzmVV.5LS7Il","first_name":"8nzmVV","last_name":"5LS7Il","email":"8nzmVV.5LS7Il@gsa.gov"},{"id":48,"username":"6GaqE6.wYeFzW","first_name":"6GaqE6","last_name":"wYeFzW","email":"6GaqE6.wYeFzW@gsa.gov"},{"id":49,"username":"uCb00x.PCIJ46","first_name":"uCb00x","last_name":"PCIJ46","email":"uCb00x.PCIJ46@gsa.gov"},{"id":50,"username":"CKUkEP.T30eH2","first_name":"CKUkEP","last_name":"T30eH2","email":"CKUkEP.T30eH2@gsa.gov"},{"id":51,"username":"D72GBO.3wYecr","first_name":"D72GBO","last_name":"3wYecr","email":"D72GBO.3wYecr@gsa.gov"},{"id":52,"username":"b0j5CU.Ew6gGd","first_name":"b0j5CU","last_name":"Ew6gGd","email":"b0j5CU.Ew6gGd@gsa.gov"},{"id":53,"username":"jWUx6k.vpCKbT","first_name":"jWUx6k","last_name":"vpCKbT","email":"jWUx6k.vpCKbT@gsa.gov"},{"id":54,"username":"Yww62W.r2iMef","first_name":"Yww62W","last_name":"r2iMef","email":"Yww62W.r2iMef@gsa.gov"},{"id":55,"username":"XAW8cd.g37iU4","first_name":"XAW8cd","last_name":"g37iU4","email":"XAW8cd.g37iU4@gsa.gov"},{"id":56,"username":"OpKIHm.lSVk6B","first_name":"OpKIHm","last_name":"lSVk6B","email":"OpKIHm.lSVk6B@gsa.gov"},{"id":57,"username":"wo6nSV.olJEOu","first_name":"wo6nSV","last_name":"olJEOu","email":"wo6nSV.olJEOu@gsa.gov"},{"id":58,"username":"snWFfz.3TcwNB","first_name":"snWFfz","last_name":"3TcwNB","email":"snWFfz.3TcwNB@gsa.gov"},{"id":59,"username":"3vSBC0.LTvwsu","first_name":"3vSBC0","last_name":"LTvwsu","email":"3vSBC0.LTvwsu@gsa.gov"},{"id":60,"username":"26RcMz.GoRvfn","first_name":"26RcMz","last_name":"GoRvfn","email":"26RcMz.GoRvfn@gsa.gov"},{"id":61,"username":"CZdpS1.o4zLOk","first_name":"CZdpS1","last_name":"o4zLOk","email":"CZdpS1.o4zLOk@gsa.gov"},{"id":62,"username":"jNCJT3.Wgavfz","first_name":"jNCJT3","last_name":"Wgavfz","email":"jNCJT3.Wgavfz@gsa.gov"},{"id":63,"username":"HaUJbF.ngQnTJ","first_name":"HaUJbF","last_name":"ngQnTJ","email":"HaUJbF.ngQnTJ@gsa.gov"},{"id":64,"username":"JrorTt.zH1maf","first_name":"JrorTt","last_name":"zH1maf","email":"JrorTt.zH1maf@gsa.gov"},{"id":65,"username":"EMrb9V.BENomE","first_name":"EMrb9V","last_name":"BENomE","email":"EMrb9V.BENomE@gsa.gov"},{"id":66,"username":"jmTO0K.9cD8I7","first_name":"jmTO0K","last_name":"9cD8I7","email":"jmTO0K.9cD8I7@gsa.gov"},{"id":67,"username":"3eae06.p4ytug","first_name":"3eae06","last_name":"p4ytug","email":"3eae06.p4ytug@gsa.gov"},{"id":68,"username":"5JCFFl.6ZhJ0I","first_name":"5JCFFl","last_name":"6ZhJ0I","email":"5JCFFl.6ZhJ0I@gsa.gov"},{"id":69,"username":"oyffj6.1P9OJb","first_name":"oyffj6","last_name":"1P9OJb","email":"oyffj6.1P9OJb@gsa.gov"},{"id":70,"username":"ORsHLb.5s85pC","first_name":"ORsHLb","last_name":"5s85pC","email":"ORsHLb.5s85pC@gsa.gov"},{"id":71,"username":"pZXv99.VjiZdG","first_name":"pZXv99","last_name":"VjiZdG","email":"pZXv99.VjiZdG@gsa.gov"},{"id":72,"username":"AK6naC.WJOQ8p","first_name":"AK6naC","last_name":"WJOQ8p","email":"AK6naC.WJOQ8p@gsa.gov"},{"id":73,"username":"wif6kH.bJDdEL","first_name":"wif6kH","last_name":"bJDdEL","email":"wif6kH.bJDdEL@gsa.gov"},{"id":74,"username":"dDFZw5.58A3HI","first_name":"dDFZw5","last_name":"58A3HI","email":"dDFZw5.58A3HI@gsa.gov"},{"id":75,"username":"YWlYTo.h32HiF","first_name":"YWlYTo","last_name":"h32HiF","email":"YWlYTo.h32HiF@gsa.gov"},{"id":77,"username":"MtMI5L.rA80Ap","first_name":"MtMI5L","last_name":"rA80Ap","email":"MtMI5L.rA80Ap@gsa.gov"},{"id":3,"username":"4OojyL.kDSF3C","first_name":"John","last_name":"","email":"4OojyL.kDSF3C@gsa.gov"},{"id":1,"username":"c9yD4f.FLFi9d","first_name":"Christian
+        G.","last_name":"Warden","email":"c9yD4f.FLFi9d@gsa.gov"},{"id":78,"username":"h2mHuH.yVNdd5","first_name":"h2mHuH","last_name":"yVNdd5","email":"h2mHuH.yVNdd5@gsa.gov"},{"id":80,"username":"hIRKDk.N6s8Fr","first_name":"hIRKDk","last_name":"N6s8Fr","email":"hIRKDk.N6s8Fr@gsa.gov"},{"id":81,"username":"fee6En.IMVjXf","first_name":"fee6En","last_name":"IMVjXf","email":"fee6En.IMVjXf@gsa.gov"},{"id":82,"username":"stWyCh.WAx2ip","first_name":"stWyCh","last_name":"WAx2ip","email":"stWyCh.WAx2ip@gsa.gov"},{"id":83,"username":"x6qPD5.oJaKnN","first_name":"x6qPD5","last_name":"oJaKnN","email":"x6qPD5.oJaKnN@gsa.gov"},{"id":84,"username":"lISob4.nwpCm1","first_name":"lISob4","last_name":"nwpCm1","email":"lISob4.nwpCm1@gsa.gov"},{"id":85,"username":"pX3h4N.0zlkXG","first_name":"pX3h4N","last_name":"0zlkXG","email":"pX3h4N.0zlkXG@gsa.gov"},{"id":86,"username":"5HkX3D.FTE4lJ","first_name":"5HkX3D","last_name":"FTE4lJ","email":"5HkX3D.FTE4lJ@gsa.gov"},{"id":87,"username":"ikInhA.Ut3BUd","first_name":"ikInhA","last_name":"Ut3BUd","email":"ikInhA.Ut3BUd@gsa.gov"},{"id":88,"username":"TBoE2q.60Wn7k","first_name":"TBoE2q","last_name":"60Wn7k","email":"TBoE2q.60Wn7k@gsa.gov"},{"id":89,"username":"JbZQP5.A46cx1","first_name":"JbZQP5","last_name":"A46cx1","email":"JbZQP5.A46cx1@gsa.gov"},{"id":90,"username":"419WNm.66FYvN","first_name":"419WNm","last_name":"66FYvN","email":"419WNm.66FYvN@gsa.gov"},{"id":91,"username":"xQmdBf.8IGMIG","first_name":"xQmdBf","last_name":"8IGMIG","email":"xQmdBf.8IGMIG@gsa.gov"},{"id":92,"username":"0ISbnk.xTzGeC","first_name":"0ISbnk","last_name":"xTzGeC","email":"0ISbnk.xTzGeC@gsa.gov"},{"id":93,"username":"HEM1aL.WXXhwH","first_name":"HEM1aL","last_name":"WXXhwH","email":"HEM1aL.WXXhwH@gsa.gov"},{"id":96,"username":"CAtY0N.sRR9OF","first_name":"CAtY0N","last_name":"sRR9OF","email":"CAtY0N.sRR9OF@gsa.gov"},{"id":97,"username":"LZZR2v.xN81EV","first_name":"LZZR2v","last_name":"xN81EV","email":"LZZR2v.xN81EV@gsa.gov"},{"id":99,"username":"pRiNb9.xNqZGL","first_name":"pRiNb9","last_name":"xNqZGL","email":"pRiNb9.xNqZGL@gsa.gov"},{"id":101,"username":"icsUrr.XCfqXV","first_name":"icsUrr","last_name":"XCfqXV","email":"icsUrr.XCfqXV@gsa.gov"},{"id":102,"username":"W8Y17y.pohXqw","first_name":"W8Y17y","last_name":"pohXqw","email":"W8Y17y.pohXqw@gsa.gov"},{"id":103,"username":"WnGOtn.uL8vYo","first_name":"WnGOtn","last_name":"uL8vYo","email":"WnGOtn.uL8vYo@gsa.gov"},{"id":104,"username":"9B6mNe.z5bkQo","first_name":"9B6mNe","last_name":"z5bkQo","email":"9B6mNe.z5bkQo@gsa.gov"},{"id":105,"username":"x7Acx8.oqHdPk","first_name":"x7Acx8","last_name":"oqHdPk","email":"x7Acx8.oqHdPk@gsa.gov"},{"id":106,"username":"aaxeMD.sCmDep","first_name":"aaxeMD","last_name":"sCmDep","email":"aaxeMD.sCmDep@gsa.gov"},{"id":107,"username":"tyZUJi.e1gBxA","first_name":"tyZUJi","last_name":"e1gBxA","email":"tyZUJi.e1gBxA@gsa.gov"},{"id":108,"username":"yrMvS3.2qA8JR","first_name":"yrMvS3","last_name":"2qA8JR","email":"yrMvS3.2qA8JR@gsa.gov"},{"id":109,"username":"ao0Ju2.h6iPgB","first_name":"ao0Ju2","last_name":"h6iPgB","email":"ao0Ju2.h6iPgB@gsa.gov"},{"id":110,"username":"6CFl4J.c4DrWz","first_name":"6CFl4J","last_name":"c4DrWz","email":"6CFl4J.c4DrWz@gsa.gov"},{"id":111,"username":"VVqy7p.2tS1Dp","first_name":"VVqy7p","last_name":"2tS1Dp","email":"VVqy7p.2tS1Dp@gsa.gov"},{"id":113,"username":"o7dH8O.qvhj7k","first_name":"o7dH8O","last_name":"qvhj7k","email":"o7dH8O.qvhj7k@gsa.gov"},{"id":115,"username":"Z7DBLv.l55PMZ","first_name":"Z7DBLv","last_name":"l55PMZ","email":"Z7DBLv.l55PMZ@gsa.gov"},{"id":116,"username":"8RXizu.eS5nDj","first_name":"8RXizu","last_name":"eS5nDj","email":"8RXizu.eS5nDj@gsa.gov"},{"id":117,"username":"k05N5v.thFxHW","first_name":"k05N5v","last_name":"thFxHW","email":"k05N5v.thFxHW@gsa.gov"},{"id":118,"username":"8sCpNJ.ZlqkpE","first_name":"8sCpNJ","last_name":"ZlqkpE","email":"8sCpNJ.ZlqkpE@gsa.gov"},{"id":119,"username":"cOYYh3.VrYnbW","first_name":"cOYYh3","last_name":"VrYnbW","email":"cOYYh3.VrYnbW@gsa.gov"},{"id":120,"username":"4VSZs2.f4cfP0","first_name":"4VSZs2","last_name":"f4cfP0","email":"4VSZs2.f4cfP0@gsa.gov"},{"id":121,"username":"GARZ95.JzIOSC","first_name":"GARZ95","last_name":"JzIOSC","email":"GARZ95.JzIOSC@gsa.gov"},{"id":122,"username":"g2mlAF.Wb5AIr","first_name":"g2mlAF","last_name":"Wb5AIr","email":"g2mlAF.Wb5AIr@gsa.gov"},{"id":123,"username":"aBCIvc.IGu6eG","first_name":"aBCIvc","last_name":"IGu6eG","email":"aBCIvc.IGu6eG@gsa.gov"},{"id":125,"username":"e9WMz3.tYlaqD","first_name":"e9WMz3","last_name":"tYlaqD","email":"e9WMz3.tYlaqD@gsa.gov"},{"id":126,"username":"8vfysF.JHi6ux","first_name":"8vfysF","last_name":"JHi6ux","email":"8vfysF.JHi6ux@gsa.gov"},{"id":129,"username":"bhC6NH.YoV29G","first_name":"bhC6NH","last_name":"YoV29G","email":"bhC6NH.YoV29G@gsa.gov"},{"id":130,"username":"muZnpY.1MMxkQ","first_name":"muZnpY","last_name":"1MMxkQ","email":"muZnpY.1MMxkQ@gsa.gov"},{"id":131,"username":"edHOKp.xvCypH","first_name":"edHOKp","last_name":"xvCypH","email":"edHOKp.xvCypH@gsa.gov"},{"id":132,"username":"T17wKO.xsB7ug","first_name":"T17wKO","last_name":"xsB7ug","email":"T17wKO.xsB7ug@gsa.gov"},{"id":133,"username":"O8kFP2.e3R7r8","first_name":"O8kFP2","last_name":"e3R7r8","email":"O8kFP2.e3R7r8@gsa.gov"},{"id":134,"username":"mRFuVL.wtA0un","first_name":"mRFuVL","last_name":"wtA0un","email":"mRFuVL.wtA0un@gsa.gov"},{"id":135,"username":"Hq1zUT.29XZDY","first_name":"Hq1zUT","last_name":"29XZDY","email":"Hq1zUT.29XZDY@gsa.gov"},{"id":136,"username":"6FIES2.cCmf84","first_name":"6FIES2","last_name":"cCmf84","email":"6FIES2.cCmf84@gsa.gov"},{"id":137,"username":"SoOlMa.gR1kJy","first_name":"SoOlMa","last_name":"gR1kJy","email":"SoOlMa.gR1kJy@gsa.gov"},{"id":138,"username":"BbaJKs.X9pQ16","first_name":"BbaJKs","last_name":"X9pQ16","email":"BbaJKs.X9pQ16@gsa.gov"},{"id":139,"username":"f9hazD.sL3iIw","first_name":"f9hazD","last_name":"sL3iIw","email":"f9hazD.sL3iIw@gsa.gov"},{"id":140,"username":"O252kx.pI3Q8g","first_name":"O252kx","last_name":"pI3Q8g","email":"O252kx.pI3Q8g@gsa.gov"},{"id":141,"username":"nYR8hv.fg2cPd","first_name":"nYR8hv","last_name":"fg2cPd","email":"nYR8hv.fg2cPd@gsa.gov"},{"id":142,"username":"RzNKjs.1MZ5Ru","first_name":"RzNKjs","last_name":"1MZ5Ru","email":"RzNKjs.1MZ5Ru@gsa.gov"},{"id":143,"username":"JW6sCo.Cm0m0f","first_name":"JW6sCo","last_name":"Cm0m0f","email":"JW6sCo.Cm0m0f@gsa.gov"},{"id":144,"username":"Ajbjv6.qqNasG","first_name":"Ajbjv6","last_name":"qqNasG","email":"Ajbjv6.qqNasG@gsa.gov"},{"id":145,"username":"T8ZiFx.njldg9","first_name":"T8ZiFx","last_name":"njldg9","email":"T8ZiFx.njldg9@gsa.gov"},{"id":146,"username":"TUCt3x.Yl7Kj8","first_name":"TUCt3x","last_name":"Yl7Kj8","email":"TUCt3x.Yl7Kj8@gsa.gov"},{"id":147,"username":"wwbGzz.FIDx0O","first_name":"wwbGzz","last_name":"FIDx0O","email":"wwbGzz.FIDx0O@gsa.gov"},{"id":148,"username":"9SDKCY.u331zy","first_name":"9SDKCY","last_name":"u331zy","email":"9SDKCY.u331zy@gsa.gov"},{"id":149,"username":"pD5h91.o8ov03","first_name":"pD5h91","last_name":"o8ov03","email":"pD5h91.o8ov03@gsa.gov"},{"id":150,"username":"fORgsU.ZUTFdC","first_name":"fORgsU","last_name":"ZUTFdC","email":"fORgsU.ZUTFdC@gsa.gov"},{"id":151,"username":"1w9aLW.IWuTZ9","first_name":"1w9aLW","last_name":"IWuTZ9","email":"1w9aLW.IWuTZ9@gsa.gov"},{"id":152,"username":"zSHzFF.W3fjZR","first_name":"zSHzFF","last_name":"W3fjZR","email":"zSHzFF.W3fjZR@gsa.gov"},{"id":153,"username":"se380Y.HI9vsO","first_name":"se380Y","last_name":"HI9vsO","email":"se380Y.HI9vsO@gsa.gov"},{"id":154,"username":"QiB4JT.WRM7YX","first_name":"QiB4JT","last_name":"WRM7YX","email":"QiB4JT.WRM7YX@gsa.gov"},{"id":155,"username":"CBcCIK.A6ZACA","first_name":"CBcCIK","last_name":"A6ZACA","email":"CBcCIK.A6ZACA@gsa.gov"},{"id":156,"username":"OFk12u.ivvp3y","first_name":"OFk12u","last_name":"ivvp3y","email":"OFk12u.ivvp3y@gsa.gov"},{"id":157,"username":"I21P5f.3nZ0fA","first_name":"I21P5f","last_name":"3nZ0fA","email":"I21P5f.3nZ0fA@gsa.gov"},{"id":158,"username":"ms2hub.36JijS","first_name":"ms2hub","last_name":"36JijS","email":"ms2hub.36JijS@gsa.gov"},{"id":159,"username":"UccFfO.TsNAqx","first_name":"UccFfO","last_name":"TsNAqx","email":"UccFfO.TsNAqx@gsa.gov"},{"id":160,"username":"KoKEpS.tlGqGB","first_name":"KoKEpS","last_name":"tlGqGB","email":"KoKEpS.tlGqGB@gsa.gov"},{"id":161,"username":"wkv63m.5LA6RG","first_name":"wkv63m","last_name":"5LA6RG","email":"wkv63m.5LA6RG@gsa.gov"},{"id":162,"username":"jGmAgf.rpi4Yx","first_name":"jGmAgf","last_name":"rpi4Yx","email":"jGmAgf.rpi4Yx@gsa.gov"},{"id":44,"username":"aaron.snow","first_name":"Aaron","last_name":"Snow","email":"aaron.snow@gsa.gov"}]}'
+    http_version: 
+  recorded_at: Sun, 28 Feb 2016 20:54:52 GMT
+- request:
+    method: get
+    uri: http://192.168.33.10/api/projects.json?page_size=100000
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.1
+      Date:
+      - Sun, 28 Feb 2016 20:54:55 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept, Cookie
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Frame-Options:
+      - SAMEORIGIN
+      Set-Cookie:
+      - csrftoken=N9SErPjOgC4lo7RsPfn0vBkNIOJMHken; expires=Sun, 26-Feb-2017 20:54:55
+        GMT; Max-Age=31449600; Path=/
+      - sessionid=x25ost21rclbuxex0nrrfwnycgcc2ace; expires=Sun, 13-Mar-2016 20:54:55
+        GMT; httponly; Max-Age=1209600; Path=/
+      Content-Length:
+      - '14812'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":114,"next":null,"previous":null,"results":[{"id":75,"client":"TqNqDM
+        Agency - M6cRMb (BNJNSW)","name":"28GDrx Project","description":"28GDrx Project
+        description","billable":true},{"id":69,"client":"Acme - FyWiOS (BUUFrB)","name":"2Pr9dF
+        Project","description":"2Pr9dF Project description","billable":false},{"id":99,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"38r3aG Project","description":"38r3aG Project description","billable":false},{"id":54,"client":"dgkfNw
+        Agency - CWAm3b (3v8CdI)","name":"3f2XPR Project","description":"3f2XPR Project
+        description","billable":true},{"id":109,"client":"Acme - 2PSrnJ (CGS08Y)","name":"4MKUJQ
+        Project","description":"4MKUJQ Project description","billable":true},{"id":62,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"5g9tB9 Project","description":"5g9tB9 Project description","billable":false},{"id":15,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"5YxZm1 Project","description":"5YxZm1 Project description","billable":false},{"id":87,"client":"Acme
+        - XKOQey (fuHv3l)","name":"62mo3e Project","description":"62mo3e Project description","billable":true},{"id":1,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"6QJYCS Project","description":"6QJYCS Project description","billable":false},{"id":26,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"7aIDZn Project","description":"7aIDZn Project description","billable":false},{"id":119,"client":"Acme
+        - P8rQ98 (13Wgt5)","name":"7dE9Hh Project","description":"7dE9Hh Project description","billable":true},{"id":32,"client":"9Djw1j
+        Agency - 75YinR (NfO5XE)","name":"7nlE6t Project","description":"7nlE6t Project
+        description","billable":true},{"id":60,"client":"Acme - FyWiOS (BUUFrB)","name":"7Y4uSK
+        Project","description":"7Y4uSK Project description","billable":false},{"id":106,"client":"LYxHCd
+        Agency - DtpAve (HAhxoz)","name":"7z0sgs Project","description":"7z0sgs Project
+        description","billable":true},{"id":19,"client":"Acme - FyWiOS (BUUFrB)","name":"9IN0JE
+        Project","description":"9IN0JE Project description","billable":false},{"id":57,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"9nE6Hv Project","description":"9nE6Hv Project description","billable":false},{"id":56,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"a7r4hC Project","description":"a7r4hC Project description","billable":false},{"id":16,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"aAfiiw Project","description":"aAfiiw Project description","billable":false},{"id":28,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"AJAS9c Project","description":"AJAS9c Project description","billable":false},{"id":64,"client":"LCpDEQ
+        Agency - vwP8aK (KX6ftH)","name":"B42XH3 Project","description":"B42XH3 Project
+        description","billable":true},{"id":71,"client":"Acme - FyWiOS (BUUFrB)","name":"b7D9kH
+        Project","description":"b7D9kH Project description","billable":false},{"id":9,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"B9Wf01 Project","description":"B9Wf01 Project description","billable":false},{"id":21,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"BEYxvP Project","description":"BEYxvP Project description","billable":false},{"id":74,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"CgDIV4 Project","description":"CgDIV4 Project description","billable":false},{"id":108,"client":"Flytnl
+        Agency - VAmcAK (NO0uto)","name":"cUAKZm Project","description":"cUAKZm Project
+        description","billable":true},{"id":5,"client":"Acme - FyWiOS (BUUFrB)","name":"CWT2nQ
+        Project","description":"CWT2nQ Project description","billable":false},{"id":105,"client":"vunYuB
+        Agency - WmKG3T (qwzcLQ)","name":"cyu0fT Project","description":"cyu0fT Project
+        description","billable":true},{"id":10,"client":"Acme - FyWiOS (BUUFrB)","name":"DbYz1x
+        Project","description":"DbYz1x Project description","billable":false},{"id":83,"client":"Acme
+        - XKOQey (fuHv3l)","name":"dcM553 Project","description":"dcM553 Project description","billable":true},{"id":23,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"e4nfCf Project","description":"e4nfCf Project description","billable":false},{"id":3,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"Ec6cyj Project","description":"Ec6cyj Project description","billable":false},{"id":88,"client":"Acme
+        - XKOQey (fuHv3l)","name":"EGC4UV Project","description":"EGC4UV Project description","billable":true},{"id":25,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"EIlgUf Project","description":"EIlgUf Project description","billable":false},{"id":49,"client":"Acme
+        - umO3UF (YNGDDI)","name":"exS048 Project","description":"exS048 Project description","billable":true},{"id":98,"client":"2MBZh3
+        Agency - TAzELl (ZULPjg)","name":"F8cPVR Project","description":"F8cPVR Project
+        description","billable":true},{"id":63,"client":"Acme","name":"First Project","description":"07KgGG
+        Project description","billable":true},{"id":89,"client":"Acme - XKOQey (fuHv3l)","name":"fnuggR
+        Project","description":"fnuggR Project description","billable":true},{"id":90,"client":"Acme
+        - XKOQey (fuHv3l)","name":"FWCo15 Project","description":"FWCo15 Project description","billable":true},{"id":112,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"FWmEiS Project","description":"FWmEiS Project description","billable":false},{"id":2,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"fY91K1 Project","description":"fY91K1 Project description","billable":false},{"id":73,"client":"tEwbLs
+        Agency - qVm3z5 (KYFbhF)","name":"fylNSp Project","description":"fylNSp Project
+        description","billable":true},{"id":6,"client":"Acme - FyWiOS (BUUFrB)","name":"GgoCdb
+        Project","description":"GgoCdb Project description","billable":false},{"id":113,"client":"Acme
+        - a9EoiN (zG6QqM)","name":"gLnDif Project","description":"gLnDif Project description","billable":true},{"id":78,"client":"Acme
+        - iUnDE5 (PvQFbd)","name":"he2Bv3 Project","description":"he2Bv3 Project description","billable":true},{"id":117,"client":"Acme
+        - umO3UF (YNGDDI)","name":"Hl49Pb Project","description":"Hl49Pb Project description","billable":true},{"id":67,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"HLkbIN Project","description":"HLkbIN Project description","billable":false},{"id":115,"client":"Acme
+        - a9EoiN (zG6QqM)","name":"HqILWe Project","description":"HqILWe Project description","billable":true},{"id":66,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"JmoF3U Project","description":"JmoF3U Project description","billable":false},{"id":17,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"K66uDK Project","description":"K66uDK Project description","billable":false},{"id":72,"client":"zB4nTO
+        Agency - uLAbhZ (UYjWML)","name":"KUnAte Project","description":"KUnAte Project
+        description","billable":true},{"id":14,"client":"Acme - FyWiOS (BUUFrB)","name":"kWY7OY
+        Project","description":"kWY7OY Project description","billable":false},{"id":116,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"LB0VJm Project","description":"LB0VJm Project description","billable":false},{"id":44,"client":"Acme
+        - glKw2E (oviWrl)","name":"LGA3RF Project","description":"LGA3RF Project description","billable":true},{"id":29,"client":"Acme
+        - 2PSrnJ (CGS08Y)","name":"LHyWrU Project","description":"LHyWrU Project description","billable":true},{"id":82,"client":"Acme
+        - XKOQey (fuHv3l)","name":"lVaFgw Project","description":"lVaFgw Project description","billable":true},{"id":41,"client":"TqNqDM
+        Agency - gvDgWK (qEIxMn)","name":"m4cuZy Project","description":"m4cuZy Project
+        description","billable":true},{"id":43,"client":"l919p0 Agency - T0tJhv (gWITi6)","name":"m6IyJE
+        Project","description":"m6IyJE Project description","billable":true},{"id":39,"client":"XkE2cJ
+        Agency - 4W3kik (EHgeR8)","name":"M8ClKN Project","description":"M8ClKN Project
+        description","billable":true},{"id":37,"client":"WrURke Agency - KyHTOl (aWRsZ6)","name":"M8mybn
+        Project","description":"M8mybn Project description","billable":true},{"id":35,"client":"Acme
+        - umO3UF (YNGDDI)","name":"MBFt8R Project","description":"MBFt8R Project description","billable":true},{"id":12,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"mBICGO Project","description":"mBICGO Project description","billable":false},{"id":46,"client":"2MBZh3
+        Agency - cjl3oZ (vI0rLW)","name":"mRtYjH Project","description":"mRtYjH Project
+        description","billable":true},{"id":59,"client":"Acme - FyWiOS (BUUFrB)","name":"MWXogY
+        Project","description":"MWXogY Project description","billable":false},{"id":97,"client":"Acme
+        - umO3UF (YNGDDI)","name":"mzcJEM Project","description":"mzcJEM Project description","billable":true},{"id":48,"client":"Acme
+        - umO3UF (YNGDDI)","name":"N5mylb Project","description":"N5mylb Project description","billable":true},{"id":68,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"n5NsVH Project","description":"n5NsVH Project description","billable":false},{"id":86,"client":"Acme
+        - XKOQey (fuHv3l)","name":"N7rhfs Project","description":"N7rhfs Project description","billable":true},{"id":51,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"Nf7bzU Project","description":"Nf7bzU Project description","billable":false},{"id":76,"client":"DuQQFs
+        Agency - EbhYv2 (LK777N)","name":"NGBtpq Project","description":"NGBtpq Project
+        description","billable":true},{"id":95,"client":"Acme - umO3UF (YNGDDI)","name":"nGgGLb
+        Project","description":"nGgGLb Project description","billable":true},{"id":52,"client":"Acme
+        - umO3UF (YNGDDI)","name":"ngyxrI Project","description":"ngyxrI Project description","billable":true},{"id":38,"client":"Acme
+        - umO3UF (YNGDDI)","name":"nVN6ER Project","description":"nVN6ER Project description","billable":true},{"id":96,"client":"Acme
+        - umO3UF (YNGDDI)","name":"oI1Nda Project","description":"oI1Nda Project description","billable":true},{"id":36,"client":"Acme
+        - umO3UF (YNGDDI)","name":"ol13uf Project","description":"ol13uf Project description","billable":true},{"id":20,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"oOD9qO Project","description":"oOD9qO Project description","billable":false},{"id":77,"client":"dgkfNw
+        Agency - CWAm3b (3v8CdI)","name":"oVIwSy Project","description":"oVIwSy Project
+        description","billable":true},{"id":114,"client":"Acme - a9EoiN (zG6QqM)","name":"Oy7va1
+        Project","description":"Oy7va1 Project description","billable":true},{"id":24,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"PDLjXZ Project","description":"PDLjXZ Project description","billable":false},{"id":4,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"PWwvld Project","description":"PWwvld Project description","billable":false},{"id":7,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"qezq66 Project","description":"qezq66 Project description","billable":false},{"id":18,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"qnACIF Project","description":"qnACIF Project description","billable":false},{"id":91,"client":"Acme
+        - XKOQey (fuHv3l)","name":"QxDftP Project","description":"QxDftP Project description","billable":true},{"id":102,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"r4qBoz Project","description":"r4qBoz Project description","billable":false},{"id":13,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"RArn51 Project","description":"RArn51 Project description","billable":false},{"id":65,"client":"JQ9Q8m
+        Agency - EHThOC (MwNsTU)","name":"s4MA3T Project","description":"s4MA3T Project
+        description","billable":true},{"id":107,"client":"XkE2cJ Agency - 4W3kik (EHgeR8)","name":"S4uul8
+        Project","description":"S4uul8 Project description","billable":true},{"id":120,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"ShT9D3 Project","description":"ShT9D3 Project description","billable":false},{"id":45,"client":"RFn3P4
+        Agency - 5cclXV (4DLVVZ)","name":"sn3kFC Project","description":"sn3kFC Project
+        description","billable":true},{"id":123,"client":"Acme","name":"sPW5Et Project","description":"sPW5Et
+        Project description","billable":true},{"id":47,"client":"oe2IkA Agency - 979wLb
+        (yTADOF)","name":"SxnQaa Project","description":"SxnQaa Project description","billable":true},{"id":122,"client":"LCpDEQ
+        Agency - B03grY (FU5J4p)","name":"t2WaKe Project","description":"t2WaKe Project
+        description","billable":true},{"id":104,"client":"LYxHCd Agency - 8H6agS (K7jjiM)","name":"tdqO61
+        Project","description":"tdqO61 Project description","billable":true},{"id":8,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"tj8EPp Project","description":"tj8EPp Project description","billable":false},{"id":22,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"TMQSSO Project","description":"TMQSSO Project description","billable":false},{"id":53,"client":"dgkfNw
+        Agency - CWAm3b (3v8CdI)","name":"TwcqPf Project","description":"TwcqPf Project
+        description","billable":true},{"id":93,"client":"Acme - XKOQey (fuHv3l)","name":"UMYpsB
+        Project","description":"UMYpsB Project description","billable":true},{"id":42,"client":"Acme
+        - a9EoiN (zG6QqM)","name":"uTJ5dP Project","description":"uTJ5dP Project description","billable":true},{"id":58,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"VJNzJw Project","description":"VJNzJw Project description","billable":false},{"id":70,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"WAqALG Project","description":"WAqALG Project description","billable":false},{"id":40,"client":"2MBZh3
+        Agency - cjl3oZ (vI0rLW)","name":"WKKD1I Project","description":"WKKD1I Project
+        description","billable":true},{"id":92,"client":"Acme - XKOQey (fuHv3l)","name":"wY7rpU
+        Project","description":"wY7rpU Project description","billable":true},{"id":79,"client":"Acme
+        - umO3UF (YNGDDI)","name":"WzULy3 Project","description":"WzULy3 Project description","billable":true},{"id":11,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"Xc7TuX Project","description":"Xc7TuX Project description","billable":false},{"id":30,"client":"Acme
+        - umO3UF (YNGDDI)","name":"Xn2J1G Project","description":"Xn2J1G Project description","billable":true},{"id":103,"client":"UxO1x5
+        Agency - dKYwqx (9r6lyQ)","name":"XOdIDE Project","description":"XOdIDE Project
+        description","billable":true},{"id":84,"client":"Acme - XKOQey (fuHv3l)","name":"XPluGx
+        Project","description":"XPluGx Project description","billable":true},{"id":50,"client":"tEwbLs
+        Agency - 5i4f71 (GdE70U)","name":"YeISlz Project","description":"YeISlz Project
+        description","billable":true},{"id":118,"client":"Acme - umO3UF (YNGDDI)","name":"ykKTAi
+        Project","description":"ykKTAi Project description","billable":true},{"id":85,"client":"Acme
+        - XKOQey (fuHv3l)","name":"ytImXT Project","description":"ytImXT Project description","billable":true},{"id":55,"client":"dgkfNw
+        Agency - CWAm3b (3v8CdI)","name":"ZJLkhx Project","description":"ZJLkhx Project
+        description","billable":true},{"id":81,"client":"Acme - XKOQey (fuHv3l)","name":"ZleV51
+        Project","description":"ZleV51 Project description","billable":true},{"id":31,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"zpEEtM Project","description":"zpEEtM Project description","billable":false},{"id":94,"client":"Acme
+        - umO3UF (YNGDDI)","name":"ZQFCpf Project","description":"ZQFCpf Project description","billable":true},{"id":33,"client":"i8jKDk
+        Agency - 6uWpxE (cij7dZ)","name":"ZXu8HH Project","description":"ZXu8HH Project
+        description","billable":true}]}'
+    http_version: 
+  recorded_at: Sun, 28 Feb 2016 20:54:55 GMT
+- request:
+    method: get
+    uri: https://api.floatschedule.com/api/v1/people
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - "<float_api_key>"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Proxy-Agent:
+      - mitmproxy 0.10.1
+      Server:
+      - nginx/1.8.1
+      Date:
+      - Sun, 28 Feb 2016 20:57:53 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Varnish:
+      - '1936125657'
+      - '42428869'
+      Age:
+      - '0'
+      - '0'
+      Via:
+      - 1.1 varnish
+      - 1.1 varnish-v4
+      X-Varnish-Cache:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      - bytes
+      X-Throttle-Remaining-Calls:
+      - '199'
+      Content-Length:
+      - '1994'
+    body:
+      encoding: ASCII-8BIT
+      string: "{\n\t\"people\": [\n\t\t{\n\t\t\t\"people_id\": \"195290\",\n\t\t\t\"name\":
+        \"Christian Warden\",\n\t\t\t\"job_title\": \"\",\n\t\t\t\"avatar_file\":
+        \"https://www.gravatar.com/avatar/7ab152b5e895caab3725643d1adbe758?d=https%3A%2F%2F4f924a82f1b7a7989f8c-8c58e9ee3a00416a4085586f251e9af6.ssl.cf2.rackcdn.com%2Favatar-kale.png&s=40\",\n\t\t\t\"department\":
+        {},\n\t\t\t\"skills\": [],\n\t\t\t\"email\":  \"cwarden@xerus.org\",\n\t\t\t\"description\":
+        \ \"\",\n\t\t\t\"mobile\":  \"\",\n\t\t\t\"telephone\":  \"\",\n\t\t\t\"im\":
+        \ \"\",\n\t\t\t\"wk_day_hrs\":  null,\n\t\t\"non_wk_days\":  null,\n\t\t\t\"employee_type\":
+        \ 1,\n\t\t\t\"contractor\":  0,\n\t\t\t\"access_rights\": 1,\n\t\t\t\"access_id\":
+        102821,\n\t\t\t\"department_filter_id\": null,\n\t\t\t\"auto_email\": -1,\n\t\t\t\"created\":
+        \"2016-02-26\",\n\t\t\t\"active\":  1\n\t\t},\n\t\t{\n\t\t\t\"people_id\":
+        \"195289\",\n\t\t\t\"name\": \"Fred\",\n\t\t\t\"job_title\": null,\n\t\t\t\"avatar_file\":
+        \"https://www.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e?d=https%3A%2F%2F4f924a82f1b7a7989f8c-8c58e9ee3a00416a4085586f251e9af6.ssl.cf2.rackcdn.com%2Favatar-kale.png&s=40\",\n\t\t\t\"department\":
+        {},\n\t\t\t\"skills\": [],\n\t\t\t\"email\":  \"\",\n\t\t\t\"description\":
+        \ null,\n\t\t\t\"mobile\":  null,\n\t\t\t\"telephone\":  null,\n\t\t\t\"im\":
+        \ null,\n\t\t\t\"wk_day_hrs\":  null,\n\t\t\"non_wk_days\":  null,\n\t\t\t\"employee_type\":
+        \ 1,\n\t\t\t\"contractor\":  0,\n\t\t\t\"access_rights\": 0,\n\t\t\t\"access_id\":
+        0,\n\t\t\t\"department_filter_id\": null,\n\t\t\t\"auto_email\": -1,\n\t\t\t\"created\":
+        \"2016-02-26\",\n\t\t\t\"active\":  1\n\t\t},\n\t\t{\n\t\t\t\"people_id\":
+        \"195288\",\n\t\t\t\"name\": \"John\",\n\t\t\t\"job_title\": null,\n\t\t\t\"avatar_file\":
+        \"https://www.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e?d=https%3A%2F%2F4f924a82f1b7a7989f8c-8c58e9ee3a00416a4085586f251e9af6.ssl.cf2.rackcdn.com%2Favatar-kale.png&s=40\",\n\t\t\t\"department\":
+        {},\n\t\t\t\"skills\": [],\n\t\t\t\"email\":  \"\",\n\t\t\t\"description\":
+        \ null,\n\t\t\t\"mobile\":  null,\n\t\t\t\"telephone\":  null,\n\t\t\t\"im\":
+        \ null,\n\t\t\t\"wk_day_hrs\":  null,\n\t\t\"non_wk_days\":  null,\n\t\t\t\"employee_type\":
+        \ 1,\n\t\t\t\"contractor\":  0,\n\t\t\t\"access_rights\": 0,\n\t\t\t\"access_id\":
+        0,\n\t\t\t\"department_filter_id\": null,\n\t\t\t\"auto_email\": -1,\n\t\t\t\"created\":
+        \"2016-02-26\",\n\t\t\t\"active\":  1\n\t\t}],\n\t\"count\": 3\n}"
+    http_version: 
+  recorded_at: Sun, 28 Feb 2016 20:54:56 GMT
+- request:
+    method: get
+    uri: https://api.floatschedule.com/api/v1/projects
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - "<float_api_key>"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Proxy-Agent:
+      - mitmproxy 0.10.1
+      Server:
+      - nginx/1.8.1
+      Date:
+      - Sun, 28 Feb 2016 20:57:54 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Varnish:
+      - '1936125658'
+      - '42253096'
+      Age:
+      - '0'
+      - '0'
+      Via:
+      - 1.1 varnish
+      - 1.1 varnish-v4
+      X-Varnish-Cache:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      - bytes
+      X-Throttle-Remaining-Calls:
+      - '198'
+      Content-Length:
+      - '1899'
+    body:
+      encoding: ASCII-8BIT
+      string: "{\n\t\"projects\": [{\"project_id\":\"579025\",\"project_name\":\"18F\",\"description\":\"\",\"color\":\"80CA79\",\"common\":\"0\",\"creator_id\":\"102821\",\"tentative\":\"0\",\"created\":\"2016-02-26\",\"modified\":\"1456524345\",\"client_id\":null,\"client_name\":null,\"tags\":[],\"non_billable\":\"0\",\"active\":\"1\",\"project_managers\":[{\"account_id\":\"102821\",\"name\":\"Christian
+        Warden\",\"email\":\"cwarden@xerus.org\"}]},{\"project_id\":\"579027\",\"project_name\":\"Shiny
+        Vintners\",\"description\":\"\",\"color\":\"1896D5\",\"common\":\"0\",\"creator_id\":\"102821\",\"tentative\":\"0\",\"created\":\"2016-02-26\",\"modified\":\"1456686678\",\"client_id\":null,\"client_name\":null,\"tags\":[],\"non_billable\":\"0\",\"active\":\"1\",\"project_managers\":[{\"account_id\":\"102821\",\"name\":\"Christian
+        Warden\",\"email\":\"cwarden@xerus.org\"}]},{\"project_id\":\"579133\",\"project_name\":\"First
+        Proj\",\"description\":\"\",\"color\":\"0095D8\",\"common\":\"0\",\"creator_id\":\"102821\",\"tentative\":\"0\",\"created\":\"2016-02-27\",\"modified\":\"1456678662\",\"client_id\":\"152784\",\"client_name\":\"Acme!\",\"tags\":[],\"non_billable\":\"0\",\"active\":\"1\",\"project_managers\":[{\"account_id\":\"102821\",\"name\":\"Christian
+        Warden\",\"email\":\"cwarden@xerus.org\"}]},{\"project_id\":\"579029\",\"project_name\":\"Healthcare
+        CRM 6.4\",\"description\":\"\",\"color\":\"0095D8\",\"common\":\"0\",\"creator_id\":\"102821\",\"tentative\":\"0\",\"created\":\"2016-02-26\",\"modified\":\"1456686698\",\"client_id\":\"152795\",\"client_name\":\"Exquisite
+        Health\",\"tags\":[],\"non_billable\":\"0\",\"active\":\"1\",\"project_managers\":[{\"account_id\":\"102821\",\"name\":\"Christian
+        Warden\",\"email\":\"cwarden@xerus.org\"}]},{\"project_id\":\"579023\",\"project_name\":\"Personal
+        Time Off\",\"description\":\"\",\"color\":\"999999\",\"common\":\"1\",\"creator_id\":\"102821\",\"tentative\":\"0\",\"created\":\"2016-02-26\",\"modified\":\"1456524316\",\"client_id\":\"152582\",\"client_name\":\"Internal\",\"tags\":[],\"non_billable\":\"1\",\"active\":\"1\",\"project_managers\":[{\"account_id\":\"102821\",\"name\":\"Christian
+        Warden\",\"email\":\"cwarden@xerus.org\"}]}\n],\n\t\"count\": 5,\n\t\"status\":
+        200}"
+    http_version: 
+  recorded_at: Sun, 28 Feb 2016 20:54:56 GMT
+- request:
+    method: get
+    uri: http://192.168.33.10/api/projects.json?page_size=100000
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.1
+      Date:
+      - Sun, 28 Feb 2016 20:55:00 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept, Cookie
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Frame-Options:
+      - SAMEORIGIN
+      Set-Cookie:
+      - csrftoken=phpZHvx2RBVDoa20t7sLh87whNEV6my4; expires=Sun, 26-Feb-2017 20:55:00
+        GMT; Max-Age=31449600; Path=/
+      - sessionid=psvuzszdqtyynqpsh6jo7xt4lapwx7wr; expires=Sun, 13-Mar-2016 20:55:00
+        GMT; httponly; Max-Age=1209600; Path=/
+      Content-Length:
+      - '14812'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":114,"next":null,"previous":null,"results":[{"id":75,"client":"TqNqDM
+        Agency - M6cRMb (BNJNSW)","name":"28GDrx Project","description":"28GDrx Project
+        description","billable":true},{"id":69,"client":"Acme - FyWiOS (BUUFrB)","name":"2Pr9dF
+        Project","description":"2Pr9dF Project description","billable":false},{"id":99,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"38r3aG Project","description":"38r3aG Project description","billable":false},{"id":54,"client":"dgkfNw
+        Agency - CWAm3b (3v8CdI)","name":"3f2XPR Project","description":"3f2XPR Project
+        description","billable":true},{"id":109,"client":"Acme - 2PSrnJ (CGS08Y)","name":"4MKUJQ
+        Project","description":"4MKUJQ Project description","billable":true},{"id":62,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"5g9tB9 Project","description":"5g9tB9 Project description","billable":false},{"id":15,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"5YxZm1 Project","description":"5YxZm1 Project description","billable":false},{"id":87,"client":"Acme
+        - XKOQey (fuHv3l)","name":"62mo3e Project","description":"62mo3e Project description","billable":true},{"id":1,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"6QJYCS Project","description":"6QJYCS Project description","billable":false},{"id":26,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"7aIDZn Project","description":"7aIDZn Project description","billable":false},{"id":119,"client":"Acme
+        - P8rQ98 (13Wgt5)","name":"7dE9Hh Project","description":"7dE9Hh Project description","billable":true},{"id":32,"client":"9Djw1j
+        Agency - 75YinR (NfO5XE)","name":"7nlE6t Project","description":"7nlE6t Project
+        description","billable":true},{"id":60,"client":"Acme - FyWiOS (BUUFrB)","name":"7Y4uSK
+        Project","description":"7Y4uSK Project description","billable":false},{"id":106,"client":"LYxHCd
+        Agency - DtpAve (HAhxoz)","name":"7z0sgs Project","description":"7z0sgs Project
+        description","billable":true},{"id":19,"client":"Acme - FyWiOS (BUUFrB)","name":"9IN0JE
+        Project","description":"9IN0JE Project description","billable":false},{"id":57,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"9nE6Hv Project","description":"9nE6Hv Project description","billable":false},{"id":56,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"a7r4hC Project","description":"a7r4hC Project description","billable":false},{"id":16,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"aAfiiw Project","description":"aAfiiw Project description","billable":false},{"id":28,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"AJAS9c Project","description":"AJAS9c Project description","billable":false},{"id":64,"client":"LCpDEQ
+        Agency - vwP8aK (KX6ftH)","name":"B42XH3 Project","description":"B42XH3 Project
+        description","billable":true},{"id":71,"client":"Acme - FyWiOS (BUUFrB)","name":"b7D9kH
+        Project","description":"b7D9kH Project description","billable":false},{"id":9,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"B9Wf01 Project","description":"B9Wf01 Project description","billable":false},{"id":21,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"BEYxvP Project","description":"BEYxvP Project description","billable":false},{"id":74,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"CgDIV4 Project","description":"CgDIV4 Project description","billable":false},{"id":108,"client":"Flytnl
+        Agency - VAmcAK (NO0uto)","name":"cUAKZm Project","description":"cUAKZm Project
+        description","billable":true},{"id":5,"client":"Acme - FyWiOS (BUUFrB)","name":"CWT2nQ
+        Project","description":"CWT2nQ Project description","billable":false},{"id":105,"client":"vunYuB
+        Agency - WmKG3T (qwzcLQ)","name":"cyu0fT Project","description":"cyu0fT Project
+        description","billable":true},{"id":10,"client":"Acme - FyWiOS (BUUFrB)","name":"DbYz1x
+        Project","description":"DbYz1x Project description","billable":false},{"id":83,"client":"Acme
+        - XKOQey (fuHv3l)","name":"dcM553 Project","description":"dcM553 Project description","billable":true},{"id":23,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"e4nfCf Project","description":"e4nfCf Project description","billable":false},{"id":3,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"Ec6cyj Project","description":"Ec6cyj Project description","billable":false},{"id":88,"client":"Acme
+        - XKOQey (fuHv3l)","name":"EGC4UV Project","description":"EGC4UV Project description","billable":true},{"id":25,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"EIlgUf Project","description":"EIlgUf Project description","billable":false},{"id":49,"client":"Acme
+        - umO3UF (YNGDDI)","name":"exS048 Project","description":"exS048 Project description","billable":true},{"id":98,"client":"2MBZh3
+        Agency - TAzELl (ZULPjg)","name":"F8cPVR Project","description":"F8cPVR Project
+        description","billable":true},{"id":63,"client":"Acme","name":"First Project","description":"07KgGG
+        Project description","billable":true},{"id":89,"client":"Acme - XKOQey (fuHv3l)","name":"fnuggR
+        Project","description":"fnuggR Project description","billable":true},{"id":90,"client":"Acme
+        - XKOQey (fuHv3l)","name":"FWCo15 Project","description":"FWCo15 Project description","billable":true},{"id":112,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"FWmEiS Project","description":"FWmEiS Project description","billable":false},{"id":2,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"fY91K1 Project","description":"fY91K1 Project description","billable":false},{"id":73,"client":"tEwbLs
+        Agency - qVm3z5 (KYFbhF)","name":"fylNSp Project","description":"fylNSp Project
+        description","billable":true},{"id":6,"client":"Acme - FyWiOS (BUUFrB)","name":"GgoCdb
+        Project","description":"GgoCdb Project description","billable":false},{"id":113,"client":"Acme
+        - a9EoiN (zG6QqM)","name":"gLnDif Project","description":"gLnDif Project description","billable":true},{"id":78,"client":"Acme
+        - iUnDE5 (PvQFbd)","name":"he2Bv3 Project","description":"he2Bv3 Project description","billable":true},{"id":117,"client":"Acme
+        - umO3UF (YNGDDI)","name":"Hl49Pb Project","description":"Hl49Pb Project description","billable":true},{"id":67,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"HLkbIN Project","description":"HLkbIN Project description","billable":false},{"id":115,"client":"Acme
+        - a9EoiN (zG6QqM)","name":"HqILWe Project","description":"HqILWe Project description","billable":true},{"id":66,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"JmoF3U Project","description":"JmoF3U Project description","billable":false},{"id":17,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"K66uDK Project","description":"K66uDK Project description","billable":false},{"id":72,"client":"zB4nTO
+        Agency - uLAbhZ (UYjWML)","name":"KUnAte Project","description":"KUnAte Project
+        description","billable":true},{"id":14,"client":"Acme - FyWiOS (BUUFrB)","name":"kWY7OY
+        Project","description":"kWY7OY Project description","billable":false},{"id":116,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"LB0VJm Project","description":"LB0VJm Project description","billable":false},{"id":44,"client":"Acme
+        - glKw2E (oviWrl)","name":"LGA3RF Project","description":"LGA3RF Project description","billable":true},{"id":29,"client":"Acme
+        - 2PSrnJ (CGS08Y)","name":"LHyWrU Project","description":"LHyWrU Project description","billable":true},{"id":82,"client":"Acme
+        - XKOQey (fuHv3l)","name":"lVaFgw Project","description":"lVaFgw Project description","billable":true},{"id":41,"client":"TqNqDM
+        Agency - gvDgWK (qEIxMn)","name":"m4cuZy Project","description":"m4cuZy Project
+        description","billable":true},{"id":43,"client":"l919p0 Agency - T0tJhv (gWITi6)","name":"m6IyJE
+        Project","description":"m6IyJE Project description","billable":true},{"id":39,"client":"XkE2cJ
+        Agency - 4W3kik (EHgeR8)","name":"M8ClKN Project","description":"M8ClKN Project
+        description","billable":true},{"id":37,"client":"WrURke Agency - KyHTOl (aWRsZ6)","name":"M8mybn
+        Project","description":"M8mybn Project description","billable":true},{"id":35,"client":"Acme
+        - umO3UF (YNGDDI)","name":"MBFt8R Project","description":"MBFt8R Project description","billable":true},{"id":12,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"mBICGO Project","description":"mBICGO Project description","billable":false},{"id":46,"client":"2MBZh3
+        Agency - cjl3oZ (vI0rLW)","name":"mRtYjH Project","description":"mRtYjH Project
+        description","billable":true},{"id":59,"client":"Acme - FyWiOS (BUUFrB)","name":"MWXogY
+        Project","description":"MWXogY Project description","billable":false},{"id":97,"client":"Acme
+        - umO3UF (YNGDDI)","name":"mzcJEM Project","description":"mzcJEM Project description","billable":true},{"id":48,"client":"Acme
+        - umO3UF (YNGDDI)","name":"N5mylb Project","description":"N5mylb Project description","billable":true},{"id":68,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"n5NsVH Project","description":"n5NsVH Project description","billable":false},{"id":86,"client":"Acme
+        - XKOQey (fuHv3l)","name":"N7rhfs Project","description":"N7rhfs Project description","billable":true},{"id":51,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"Nf7bzU Project","description":"Nf7bzU Project description","billable":false},{"id":76,"client":"DuQQFs
+        Agency - EbhYv2 (LK777N)","name":"NGBtpq Project","description":"NGBtpq Project
+        description","billable":true},{"id":95,"client":"Acme - umO3UF (YNGDDI)","name":"nGgGLb
+        Project","description":"nGgGLb Project description","billable":true},{"id":52,"client":"Acme
+        - umO3UF (YNGDDI)","name":"ngyxrI Project","description":"ngyxrI Project description","billable":true},{"id":38,"client":"Acme
+        - umO3UF (YNGDDI)","name":"nVN6ER Project","description":"nVN6ER Project description","billable":true},{"id":96,"client":"Acme
+        - umO3UF (YNGDDI)","name":"oI1Nda Project","description":"oI1Nda Project description","billable":true},{"id":36,"client":"Acme
+        - umO3UF (YNGDDI)","name":"ol13uf Project","description":"ol13uf Project description","billable":true},{"id":20,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"oOD9qO Project","description":"oOD9qO Project description","billable":false},{"id":77,"client":"dgkfNw
+        Agency - CWAm3b (3v8CdI)","name":"oVIwSy Project","description":"oVIwSy Project
+        description","billable":true},{"id":114,"client":"Acme - a9EoiN (zG6QqM)","name":"Oy7va1
+        Project","description":"Oy7va1 Project description","billable":true},{"id":24,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"PDLjXZ Project","description":"PDLjXZ Project description","billable":false},{"id":4,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"PWwvld Project","description":"PWwvld Project description","billable":false},{"id":7,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"qezq66 Project","description":"qezq66 Project description","billable":false},{"id":18,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"qnACIF Project","description":"qnACIF Project description","billable":false},{"id":91,"client":"Acme
+        - XKOQey (fuHv3l)","name":"QxDftP Project","description":"QxDftP Project description","billable":true},{"id":102,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"r4qBoz Project","description":"r4qBoz Project description","billable":false},{"id":13,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"RArn51 Project","description":"RArn51 Project description","billable":false},{"id":65,"client":"JQ9Q8m
+        Agency - EHThOC (MwNsTU)","name":"s4MA3T Project","description":"s4MA3T Project
+        description","billable":true},{"id":107,"client":"XkE2cJ Agency - 4W3kik (EHgeR8)","name":"S4uul8
+        Project","description":"S4uul8 Project description","billable":true},{"id":120,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"ShT9D3 Project","description":"ShT9D3 Project description","billable":false},{"id":45,"client":"RFn3P4
+        Agency - 5cclXV (4DLVVZ)","name":"sn3kFC Project","description":"sn3kFC Project
+        description","billable":true},{"id":123,"client":"Acme","name":"sPW5Et Project","description":"sPW5Et
+        Project description","billable":true},{"id":47,"client":"oe2IkA Agency - 979wLb
+        (yTADOF)","name":"SxnQaa Project","description":"SxnQaa Project description","billable":true},{"id":122,"client":"LCpDEQ
+        Agency - B03grY (FU5J4p)","name":"t2WaKe Project","description":"t2WaKe Project
+        description","billable":true},{"id":104,"client":"LYxHCd Agency - 8H6agS (K7jjiM)","name":"tdqO61
+        Project","description":"tdqO61 Project description","billable":true},{"id":8,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"tj8EPp Project","description":"tj8EPp Project description","billable":false},{"id":22,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"TMQSSO Project","description":"TMQSSO Project description","billable":false},{"id":53,"client":"dgkfNw
+        Agency - CWAm3b (3v8CdI)","name":"TwcqPf Project","description":"TwcqPf Project
+        description","billable":true},{"id":93,"client":"Acme - XKOQey (fuHv3l)","name":"UMYpsB
+        Project","description":"UMYpsB Project description","billable":true},{"id":42,"client":"Acme
+        - a9EoiN (zG6QqM)","name":"uTJ5dP Project","description":"uTJ5dP Project description","billable":true},{"id":58,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"VJNzJw Project","description":"VJNzJw Project description","billable":false},{"id":70,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"WAqALG Project","description":"WAqALG Project description","billable":false},{"id":40,"client":"2MBZh3
+        Agency - cjl3oZ (vI0rLW)","name":"WKKD1I Project","description":"WKKD1I Project
+        description","billable":true},{"id":92,"client":"Acme - XKOQey (fuHv3l)","name":"wY7rpU
+        Project","description":"wY7rpU Project description","billable":true},{"id":79,"client":"Acme
+        - umO3UF (YNGDDI)","name":"WzULy3 Project","description":"WzULy3 Project description","billable":true},{"id":11,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"Xc7TuX Project","description":"Xc7TuX Project description","billable":false},{"id":30,"client":"Acme
+        - umO3UF (YNGDDI)","name":"Xn2J1G Project","description":"Xn2J1G Project description","billable":true},{"id":103,"client":"UxO1x5
+        Agency - dKYwqx (9r6lyQ)","name":"XOdIDE Project","description":"XOdIDE Project
+        description","billable":true},{"id":84,"client":"Acme - XKOQey (fuHv3l)","name":"XPluGx
+        Project","description":"XPluGx Project description","billable":true},{"id":50,"client":"tEwbLs
+        Agency - 5i4f71 (GdE70U)","name":"YeISlz Project","description":"YeISlz Project
+        description","billable":true},{"id":118,"client":"Acme - umO3UF (YNGDDI)","name":"ykKTAi
+        Project","description":"ykKTAi Project description","billable":true},{"id":85,"client":"Acme
+        - XKOQey (fuHv3l)","name":"ytImXT Project","description":"ytImXT Project description","billable":true},{"id":55,"client":"dgkfNw
+        Agency - CWAm3b (3v8CdI)","name":"ZJLkhx Project","description":"ZJLkhx Project
+        description","billable":true},{"id":81,"client":"Acme - XKOQey (fuHv3l)","name":"ZleV51
+        Project","description":"ZleV51 Project description","billable":true},{"id":31,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"zpEEtM Project","description":"zpEEtM Project description","billable":false},{"id":94,"client":"Acme
+        - umO3UF (YNGDDI)","name":"ZQFCpf Project","description":"ZQFCpf Project description","billable":true},{"id":33,"client":"i8jKDk
+        Agency - 6uWpxE (cij7dZ)","name":"ZXu8HH Project","description":"ZXu8HH Project
+        description","billable":true}]}'
+    http_version: 
+  recorded_at: Sun, 28 Feb 2016 20:55:00 GMT
+- request:
+    method: get
+    uri: https://api.floatschedule.com/api/v1/projects
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - "<float_api_key>"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Proxy-Agent:
+      - mitmproxy 0.10.1
+      Server:
+      - nginx/1.8.1
+      Date:
+      - Sun, 28 Feb 2016 20:57:57 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Varnish:
+      - '1936125662'
+      - '42410442'
+      Age:
+      - '0'
+      - '0'
+      Via:
+      - 1.1 varnish
+      - 1.1 varnish-v4
+      X-Varnish-Cache:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      - bytes
+      X-Throttle-Remaining-Calls:
+      - '197'
+      Content-Length:
+      - '1899'
+    body:
+      encoding: ASCII-8BIT
+      string: "{\n\t\"projects\": [{\"project_id\":\"579025\",\"project_name\":\"18F\",\"description\":\"\",\"color\":\"80CA79\",\"common\":\"0\",\"creator_id\":\"102821\",\"tentative\":\"0\",\"created\":\"2016-02-26\",\"modified\":\"1456524345\",\"client_id\":null,\"client_name\":null,\"tags\":[],\"non_billable\":\"0\",\"active\":\"1\",\"project_managers\":[{\"account_id\":\"102821\",\"name\":\"Christian
+        Warden\",\"email\":\"cwarden@xerus.org\"}]},{\"project_id\":\"579027\",\"project_name\":\"Shiny
+        Vintners\",\"description\":\"\",\"color\":\"1896D5\",\"common\":\"0\",\"creator_id\":\"102821\",\"tentative\":\"0\",\"created\":\"2016-02-26\",\"modified\":\"1456686678\",\"client_id\":null,\"client_name\":null,\"tags\":[],\"non_billable\":\"0\",\"active\":\"1\",\"project_managers\":[{\"account_id\":\"102821\",\"name\":\"Christian
+        Warden\",\"email\":\"cwarden@xerus.org\"}]},{\"project_id\":\"579133\",\"project_name\":\"First
+        Proj\",\"description\":\"\",\"color\":\"0095D8\",\"common\":\"0\",\"creator_id\":\"102821\",\"tentative\":\"0\",\"created\":\"2016-02-27\",\"modified\":\"1456678662\",\"client_id\":\"152784\",\"client_name\":\"Acme!\",\"tags\":[],\"non_billable\":\"0\",\"active\":\"1\",\"project_managers\":[{\"account_id\":\"102821\",\"name\":\"Christian
+        Warden\",\"email\":\"cwarden@xerus.org\"}]},{\"project_id\":\"579029\",\"project_name\":\"Healthcare
+        CRM 6.4\",\"description\":\"\",\"color\":\"0095D8\",\"common\":\"0\",\"creator_id\":\"102821\",\"tentative\":\"0\",\"created\":\"2016-02-26\",\"modified\":\"1456686698\",\"client_id\":\"152795\",\"client_name\":\"Exquisite
+        Health\",\"tags\":[],\"non_billable\":\"0\",\"active\":\"1\",\"project_managers\":[{\"account_id\":\"102821\",\"name\":\"Christian
+        Warden\",\"email\":\"cwarden@xerus.org\"}]},{\"project_id\":\"579023\",\"project_name\":\"Personal
+        Time Off\",\"description\":\"\",\"color\":\"999999\",\"common\":\"1\",\"creator_id\":\"102821\",\"tentative\":\"0\",\"created\":\"2016-02-26\",\"modified\":\"1456524316\",\"client_id\":\"152582\",\"client_name\":\"Internal\",\"tags\":[],\"non_billable\":\"1\",\"active\":\"1\",\"project_managers\":[{\"account_id\":\"102821\",\"name\":\"Christian
+        Warden\",\"email\":\"cwarden@xerus.org\"}]}\n],\n\t\"count\": 5,\n\t\"status\":
+        200}"
+    http_version: 
+  recorded_at: Sun, 28 Feb 2016 20:55:00 GMT
+- request:
+    method: get
+    uri: http://192.168.33.10/api/projects.json?page_size=100000
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.1
+      Date:
+      - Sun, 28 Feb 2016 20:55:03 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept, Cookie
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Frame-Options:
+      - SAMEORIGIN
+      Set-Cookie:
+      - csrftoken=3ItXmgj5PNeFde0F8pzyvyNbMHTv3f6F; expires=Sun, 26-Feb-2017 20:55:03
+        GMT; Max-Age=31449600; Path=/
+      - sessionid=wd7b2ijmohbdimwkfq0sun7db3wtr4dr; expires=Sun, 13-Mar-2016 20:55:03
+        GMT; httponly; Max-Age=1209600; Path=/
+      Content-Length:
+      - '14812'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":114,"next":null,"previous":null,"results":[{"id":75,"client":"TqNqDM
+        Agency - M6cRMb (BNJNSW)","name":"28GDrx Project","description":"28GDrx Project
+        description","billable":true},{"id":69,"client":"Acme - FyWiOS (BUUFrB)","name":"2Pr9dF
+        Project","description":"2Pr9dF Project description","billable":false},{"id":99,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"38r3aG Project","description":"38r3aG Project description","billable":false},{"id":54,"client":"dgkfNw
+        Agency - CWAm3b (3v8CdI)","name":"3f2XPR Project","description":"3f2XPR Project
+        description","billable":true},{"id":109,"client":"Acme - 2PSrnJ (CGS08Y)","name":"4MKUJQ
+        Project","description":"4MKUJQ Project description","billable":true},{"id":62,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"5g9tB9 Project","description":"5g9tB9 Project description","billable":false},{"id":15,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"5YxZm1 Project","description":"5YxZm1 Project description","billable":false},{"id":87,"client":"Acme
+        - XKOQey (fuHv3l)","name":"62mo3e Project","description":"62mo3e Project description","billable":true},{"id":1,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"6QJYCS Project","description":"6QJYCS Project description","billable":false},{"id":26,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"7aIDZn Project","description":"7aIDZn Project description","billable":false},{"id":119,"client":"Acme
+        - P8rQ98 (13Wgt5)","name":"7dE9Hh Project","description":"7dE9Hh Project description","billable":true},{"id":32,"client":"9Djw1j
+        Agency - 75YinR (NfO5XE)","name":"7nlE6t Project","description":"7nlE6t Project
+        description","billable":true},{"id":60,"client":"Acme - FyWiOS (BUUFrB)","name":"7Y4uSK
+        Project","description":"7Y4uSK Project description","billable":false},{"id":106,"client":"LYxHCd
+        Agency - DtpAve (HAhxoz)","name":"7z0sgs Project","description":"7z0sgs Project
+        description","billable":true},{"id":19,"client":"Acme - FyWiOS (BUUFrB)","name":"9IN0JE
+        Project","description":"9IN0JE Project description","billable":false},{"id":57,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"9nE6Hv Project","description":"9nE6Hv Project description","billable":false},{"id":56,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"a7r4hC Project","description":"a7r4hC Project description","billable":false},{"id":16,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"aAfiiw Project","description":"aAfiiw Project description","billable":false},{"id":28,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"AJAS9c Project","description":"AJAS9c Project description","billable":false},{"id":64,"client":"LCpDEQ
+        Agency - vwP8aK (KX6ftH)","name":"B42XH3 Project","description":"B42XH3 Project
+        description","billable":true},{"id":71,"client":"Acme - FyWiOS (BUUFrB)","name":"b7D9kH
+        Project","description":"b7D9kH Project description","billable":false},{"id":9,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"B9Wf01 Project","description":"B9Wf01 Project description","billable":false},{"id":21,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"BEYxvP Project","description":"BEYxvP Project description","billable":false},{"id":74,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"CgDIV4 Project","description":"CgDIV4 Project description","billable":false},{"id":108,"client":"Flytnl
+        Agency - VAmcAK (NO0uto)","name":"cUAKZm Project","description":"cUAKZm Project
+        description","billable":true},{"id":5,"client":"Acme - FyWiOS (BUUFrB)","name":"CWT2nQ
+        Project","description":"CWT2nQ Project description","billable":false},{"id":105,"client":"vunYuB
+        Agency - WmKG3T (qwzcLQ)","name":"cyu0fT Project","description":"cyu0fT Project
+        description","billable":true},{"id":10,"client":"Acme - FyWiOS (BUUFrB)","name":"DbYz1x
+        Project","description":"DbYz1x Project description","billable":false},{"id":83,"client":"Acme
+        - XKOQey (fuHv3l)","name":"dcM553 Project","description":"dcM553 Project description","billable":true},{"id":23,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"e4nfCf Project","description":"e4nfCf Project description","billable":false},{"id":3,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"Ec6cyj Project","description":"Ec6cyj Project description","billable":false},{"id":88,"client":"Acme
+        - XKOQey (fuHv3l)","name":"EGC4UV Project","description":"EGC4UV Project description","billable":true},{"id":25,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"EIlgUf Project","description":"EIlgUf Project description","billable":false},{"id":49,"client":"Acme
+        - umO3UF (YNGDDI)","name":"exS048 Project","description":"exS048 Project description","billable":true},{"id":98,"client":"2MBZh3
+        Agency - TAzELl (ZULPjg)","name":"F8cPVR Project","description":"F8cPVR Project
+        description","billable":true},{"id":63,"client":"Acme","name":"First Project","description":"07KgGG
+        Project description","billable":true},{"id":89,"client":"Acme - XKOQey (fuHv3l)","name":"fnuggR
+        Project","description":"fnuggR Project description","billable":true},{"id":90,"client":"Acme
+        - XKOQey (fuHv3l)","name":"FWCo15 Project","description":"FWCo15 Project description","billable":true},{"id":112,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"FWmEiS Project","description":"FWmEiS Project description","billable":false},{"id":2,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"fY91K1 Project","description":"fY91K1 Project description","billable":false},{"id":73,"client":"tEwbLs
+        Agency - qVm3z5 (KYFbhF)","name":"fylNSp Project","description":"fylNSp Project
+        description","billable":true},{"id":6,"client":"Acme - FyWiOS (BUUFrB)","name":"GgoCdb
+        Project","description":"GgoCdb Project description","billable":false},{"id":113,"client":"Acme
+        - a9EoiN (zG6QqM)","name":"gLnDif Project","description":"gLnDif Project description","billable":true},{"id":78,"client":"Acme
+        - iUnDE5 (PvQFbd)","name":"he2Bv3 Project","description":"he2Bv3 Project description","billable":true},{"id":117,"client":"Acme
+        - umO3UF (YNGDDI)","name":"Hl49Pb Project","description":"Hl49Pb Project description","billable":true},{"id":67,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"HLkbIN Project","description":"HLkbIN Project description","billable":false},{"id":115,"client":"Acme
+        - a9EoiN (zG6QqM)","name":"HqILWe Project","description":"HqILWe Project description","billable":true},{"id":66,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"JmoF3U Project","description":"JmoF3U Project description","billable":false},{"id":17,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"K66uDK Project","description":"K66uDK Project description","billable":false},{"id":72,"client":"zB4nTO
+        Agency - uLAbhZ (UYjWML)","name":"KUnAte Project","description":"KUnAte Project
+        description","billable":true},{"id":14,"client":"Acme - FyWiOS (BUUFrB)","name":"kWY7OY
+        Project","description":"kWY7OY Project description","billable":false},{"id":116,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"LB0VJm Project","description":"LB0VJm Project description","billable":false},{"id":44,"client":"Acme
+        - glKw2E (oviWrl)","name":"LGA3RF Project","description":"LGA3RF Project description","billable":true},{"id":29,"client":"Acme
+        - 2PSrnJ (CGS08Y)","name":"LHyWrU Project","description":"LHyWrU Project description","billable":true},{"id":82,"client":"Acme
+        - XKOQey (fuHv3l)","name":"lVaFgw Project","description":"lVaFgw Project description","billable":true},{"id":41,"client":"TqNqDM
+        Agency - gvDgWK (qEIxMn)","name":"m4cuZy Project","description":"m4cuZy Project
+        description","billable":true},{"id":43,"client":"l919p0 Agency - T0tJhv (gWITi6)","name":"m6IyJE
+        Project","description":"m6IyJE Project description","billable":true},{"id":39,"client":"XkE2cJ
+        Agency - 4W3kik (EHgeR8)","name":"M8ClKN Project","description":"M8ClKN Project
+        description","billable":true},{"id":37,"client":"WrURke Agency - KyHTOl (aWRsZ6)","name":"M8mybn
+        Project","description":"M8mybn Project description","billable":true},{"id":35,"client":"Acme
+        - umO3UF (YNGDDI)","name":"MBFt8R Project","description":"MBFt8R Project description","billable":true},{"id":12,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"mBICGO Project","description":"mBICGO Project description","billable":false},{"id":46,"client":"2MBZh3
+        Agency - cjl3oZ (vI0rLW)","name":"mRtYjH Project","description":"mRtYjH Project
+        description","billable":true},{"id":59,"client":"Acme - FyWiOS (BUUFrB)","name":"MWXogY
+        Project","description":"MWXogY Project description","billable":false},{"id":97,"client":"Acme
+        - umO3UF (YNGDDI)","name":"mzcJEM Project","description":"mzcJEM Project description","billable":true},{"id":48,"client":"Acme
+        - umO3UF (YNGDDI)","name":"N5mylb Project","description":"N5mylb Project description","billable":true},{"id":68,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"n5NsVH Project","description":"n5NsVH Project description","billable":false},{"id":86,"client":"Acme
+        - XKOQey (fuHv3l)","name":"N7rhfs Project","description":"N7rhfs Project description","billable":true},{"id":51,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"Nf7bzU Project","description":"Nf7bzU Project description","billable":false},{"id":76,"client":"DuQQFs
+        Agency - EbhYv2 (LK777N)","name":"NGBtpq Project","description":"NGBtpq Project
+        description","billable":true},{"id":95,"client":"Acme - umO3UF (YNGDDI)","name":"nGgGLb
+        Project","description":"nGgGLb Project description","billable":true},{"id":52,"client":"Acme
+        - umO3UF (YNGDDI)","name":"ngyxrI Project","description":"ngyxrI Project description","billable":true},{"id":38,"client":"Acme
+        - umO3UF (YNGDDI)","name":"nVN6ER Project","description":"nVN6ER Project description","billable":true},{"id":96,"client":"Acme
+        - umO3UF (YNGDDI)","name":"oI1Nda Project","description":"oI1Nda Project description","billable":true},{"id":36,"client":"Acme
+        - umO3UF (YNGDDI)","name":"ol13uf Project","description":"ol13uf Project description","billable":true},{"id":20,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"oOD9qO Project","description":"oOD9qO Project description","billable":false},{"id":77,"client":"dgkfNw
+        Agency - CWAm3b (3v8CdI)","name":"oVIwSy Project","description":"oVIwSy Project
+        description","billable":true},{"id":114,"client":"Acme - a9EoiN (zG6QqM)","name":"Oy7va1
+        Project","description":"Oy7va1 Project description","billable":true},{"id":24,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"PDLjXZ Project","description":"PDLjXZ Project description","billable":false},{"id":4,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"PWwvld Project","description":"PWwvld Project description","billable":false},{"id":7,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"qezq66 Project","description":"qezq66 Project description","billable":false},{"id":18,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"qnACIF Project","description":"qnACIF Project description","billable":false},{"id":91,"client":"Acme
+        - XKOQey (fuHv3l)","name":"QxDftP Project","description":"QxDftP Project description","billable":true},{"id":102,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"r4qBoz Project","description":"r4qBoz Project description","billable":false},{"id":13,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"RArn51 Project","description":"RArn51 Project description","billable":false},{"id":65,"client":"JQ9Q8m
+        Agency - EHThOC (MwNsTU)","name":"s4MA3T Project","description":"s4MA3T Project
+        description","billable":true},{"id":107,"client":"XkE2cJ Agency - 4W3kik (EHgeR8)","name":"S4uul8
+        Project","description":"S4uul8 Project description","billable":true},{"id":120,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"ShT9D3 Project","description":"ShT9D3 Project description","billable":false},{"id":45,"client":"RFn3P4
+        Agency - 5cclXV (4DLVVZ)","name":"sn3kFC Project","description":"sn3kFC Project
+        description","billable":true},{"id":123,"client":"Acme","name":"sPW5Et Project","description":"sPW5Et
+        Project description","billable":true},{"id":47,"client":"oe2IkA Agency - 979wLb
+        (yTADOF)","name":"SxnQaa Project","description":"SxnQaa Project description","billable":true},{"id":122,"client":"LCpDEQ
+        Agency - B03grY (FU5J4p)","name":"t2WaKe Project","description":"t2WaKe Project
+        description","billable":true},{"id":104,"client":"LYxHCd Agency - 8H6agS (K7jjiM)","name":"tdqO61
+        Project","description":"tdqO61 Project description","billable":true},{"id":8,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"tj8EPp Project","description":"tj8EPp Project description","billable":false},{"id":22,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"TMQSSO Project","description":"TMQSSO Project description","billable":false},{"id":53,"client":"dgkfNw
+        Agency - CWAm3b (3v8CdI)","name":"TwcqPf Project","description":"TwcqPf Project
+        description","billable":true},{"id":93,"client":"Acme - XKOQey (fuHv3l)","name":"UMYpsB
+        Project","description":"UMYpsB Project description","billable":true},{"id":42,"client":"Acme
+        - a9EoiN (zG6QqM)","name":"uTJ5dP Project","description":"uTJ5dP Project description","billable":true},{"id":58,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"VJNzJw Project","description":"VJNzJw Project description","billable":false},{"id":70,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"WAqALG Project","description":"WAqALG Project description","billable":false},{"id":40,"client":"2MBZh3
+        Agency - cjl3oZ (vI0rLW)","name":"WKKD1I Project","description":"WKKD1I Project
+        description","billable":true},{"id":92,"client":"Acme - XKOQey (fuHv3l)","name":"wY7rpU
+        Project","description":"wY7rpU Project description","billable":true},{"id":79,"client":"Acme
+        - umO3UF (YNGDDI)","name":"WzULy3 Project","description":"WzULy3 Project description","billable":true},{"id":11,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"Xc7TuX Project","description":"Xc7TuX Project description","billable":false},{"id":30,"client":"Acme
+        - umO3UF (YNGDDI)","name":"Xn2J1G Project","description":"Xn2J1G Project description","billable":true},{"id":103,"client":"UxO1x5
+        Agency - dKYwqx (9r6lyQ)","name":"XOdIDE Project","description":"XOdIDE Project
+        description","billable":true},{"id":84,"client":"Acme - XKOQey (fuHv3l)","name":"XPluGx
+        Project","description":"XPluGx Project description","billable":true},{"id":50,"client":"tEwbLs
+        Agency - 5i4f71 (GdE70U)","name":"YeISlz Project","description":"YeISlz Project
+        description","billable":true},{"id":118,"client":"Acme - umO3UF (YNGDDI)","name":"ykKTAi
+        Project","description":"ykKTAi Project description","billable":true},{"id":85,"client":"Acme
+        - XKOQey (fuHv3l)","name":"ytImXT Project","description":"ytImXT Project description","billable":true},{"id":55,"client":"dgkfNw
+        Agency - CWAm3b (3v8CdI)","name":"ZJLkhx Project","description":"ZJLkhx Project
+        description","billable":true},{"id":81,"client":"Acme - XKOQey (fuHv3l)","name":"ZleV51
+        Project","description":"ZleV51 Project description","billable":true},{"id":31,"client":"Acme
+        - FyWiOS (BUUFrB)","name":"zpEEtM Project","description":"zpEEtM Project description","billable":false},{"id":94,"client":"Acme
+        - umO3UF (YNGDDI)","name":"ZQFCpf Project","description":"ZQFCpf Project description","billable":true},{"id":33,"client":"i8jKDk
+        Agency - 6uWpxE (cij7dZ)","name":"ZXu8HH Project","description":"ZXu8HH Project
+        description","billable":true}]}'
+    http_version: 
+  recorded_at: Sun, 28 Feb 2016 20:55:03 GMT
+- request:
+    method: get
+    uri: https://api.floatschedule.com/api/v1/projects
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - "<float_api_key>"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Proxy-Agent:
+      - mitmproxy 0.10.1
+      Server:
+      - nginx/1.8.1
+      Date:
+      - Sun, 28 Feb 2016 20:58:01 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Varnish:
+      - '1936125663'
+      - '42669297'
+      Age:
+      - '0'
+      - '0'
+      Via:
+      - 1.1 varnish
+      - 1.1 varnish-v4
+      X-Varnish-Cache:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      - bytes
+      X-Throttle-Remaining-Calls:
+      - '196'
+      Content-Length:
+      - '1899'
+    body:
+      encoding: ASCII-8BIT
+      string: "{\n\t\"projects\": [{\"project_id\":\"579025\",\"project_name\":\"18F\",\"description\":\"\",\"color\":\"80CA79\",\"common\":\"0\",\"creator_id\":\"102821\",\"tentative\":\"0\",\"created\":\"2016-02-26\",\"modified\":\"1456524345\",\"client_id\":null,\"client_name\":null,\"tags\":[],\"non_billable\":\"0\",\"active\":\"1\",\"project_managers\":[{\"account_id\":\"102821\",\"name\":\"Christian
+        Warden\",\"email\":\"cwarden@xerus.org\"}]},{\"project_id\":\"579027\",\"project_name\":\"Shiny
+        Vintners\",\"description\":\"\",\"color\":\"1896D5\",\"common\":\"0\",\"creator_id\":\"102821\",\"tentative\":\"0\",\"created\":\"2016-02-26\",\"modified\":\"1456686678\",\"client_id\":null,\"client_name\":null,\"tags\":[],\"non_billable\":\"0\",\"active\":\"1\",\"project_managers\":[{\"account_id\":\"102821\",\"name\":\"Christian
+        Warden\",\"email\":\"cwarden@xerus.org\"}]},{\"project_id\":\"579133\",\"project_name\":\"First
+        Proj\",\"description\":\"\",\"color\":\"0095D8\",\"common\":\"0\",\"creator_id\":\"102821\",\"tentative\":\"0\",\"created\":\"2016-02-27\",\"modified\":\"1456678662\",\"client_id\":\"152784\",\"client_name\":\"Acme!\",\"tags\":[],\"non_billable\":\"0\",\"active\":\"1\",\"project_managers\":[{\"account_id\":\"102821\",\"name\":\"Christian
+        Warden\",\"email\":\"cwarden@xerus.org\"}]},{\"project_id\":\"579029\",\"project_name\":\"Healthcare
+        CRM 6.4\",\"description\":\"\",\"color\":\"0095D8\",\"common\":\"0\",\"creator_id\":\"102821\",\"tentative\":\"0\",\"created\":\"2016-02-26\",\"modified\":\"1456686698\",\"client_id\":\"152795\",\"client_name\":\"Exquisite
+        Health\",\"tags\":[],\"non_billable\":\"0\",\"active\":\"1\",\"project_managers\":[{\"account_id\":\"102821\",\"name\":\"Christian
+        Warden\",\"email\":\"cwarden@xerus.org\"}]},{\"project_id\":\"579023\",\"project_name\":\"Personal
+        Time Off\",\"description\":\"\",\"color\":\"999999\",\"common\":\"1\",\"creator_id\":\"102821\",\"tentative\":\"0\",\"created\":\"2016-02-26\",\"modified\":\"1456524316\",\"client_id\":\"152582\",\"client_name\":\"Internal\",\"tags\":[],\"non_billable\":\"1\",\"active\":\"1\",\"project_managers\":[{\"account_id\":\"102821\",\"name\":\"Christian
+        Warden\",\"email\":\"cwarden@xerus.org\"}]}\n],\n\t\"count\": 5,\n\t\"status\":
+        200}"
+    http_version: 
+  recorded_at: Sun, 28 Feb 2016 20:55:04 GMT
+recorded_with: VCR 3.0.1

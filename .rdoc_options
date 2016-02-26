@@ -11,6 +11,6 @@ main_page: README.md
 markup: markdown
 show_hash: false
 tab_width: 8
-title: samwise Documentation
+title: onena Documentation
 visibility: :protected
 webcvs:

@@ -2,17 +2,17 @@
 
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'samwise/version'
+require 'onena/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "samwise"
-  gem.version       = Samwise::VERSION
-  gem.summary       = %q{Ruby access to the SAM.gov API}
-  gem.description   = %q{A Ruby library that provides access to the SAM.gov API}
-  gem.license       = "Public Domain. See CONTRIBUTING.md."
-  gem.authors       = ["Alan deLevie"]
-  gem.email         = "alan.delevie@gsa.gov"
-  gem.homepage      = "https://rubygems.org/gems/samwise"
+  gem.name          = "onena"
+  gem.version       = Onena::VERSION
+  gem.summary       = %q{Identify possible duplicates between Tock and Float}
+  gem.description   = %q{A Ruby library and cli tool that tries to identify mismatched names between Tock and Float}
+  gem.license       = "Public Domain. See LICENSE.md."
+  gem.authors       = ["Christian G. Warden"]
+  gem.email         = "cwarden@xerus.org"
+  gem.homepage      = "https://github.com/cwarden/onena"
 
   gem.files         = `git ls-files`.split($/)
 
@@ -38,6 +38,6 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'pry'
   gem.add_development_dependency 'webmock'
 
-  gem.add_runtime_dependency 'httpclient'
-  gem.add_runtime_dependency 'faraday'
+  gem.add_runtime_dependency 'curb'
+  gem.add_runtime_dependency 'text'
 end
